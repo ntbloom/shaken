@@ -1,0 +1,48 @@
+/* @format */
+/* navbar.css -- stylesheets for navigation bar */
+
+.navbar {
+  z-index: 1;
+  position: sticky;
+  display: flex;
+  top: 0px;
+  background-color: var(--navbar-bg-color);
+  color: var(--navbar-txt-color);
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  opacity: 0.95;
+}
+
+#smallLogoDiv {
+  padding: 1px;
+  margin-right: 2em;
+  margin-left: 5px;
+  margin-top: 3px;
+  background-color: var(--navbar-txt-color);
+}
+#smallLogo {
+  position: relative;
+  vertical-align: bottom;
+  padding-top: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-bottom: 3px;
+}
+
+#bigLogo {
+  padding-left: 2em;
+}
+
+.navbutton {
+  background-color: var(--navbar-header-color);
+  color: var(--navbar-txt-color);
+  border-style: none;
+  vertical-align: top;
+  margin-right: 2em;
+}
+
+.navbutton:hover {
+  color: var(--main-accent-color);
+  cursor: pointer;
+}

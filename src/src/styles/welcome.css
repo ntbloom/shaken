@@ -1,0 +1,38 @@
+/* @format */
+
+#welcome {
+  display: grid;
+  grid-template-rows: auto auto;
+}
+
+#bigLogo {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  grid-row: 1 / 2;
+}
+
+#buttonWrapper {
+}
+
+#welcome button {
+  font-family: var(--primary-fontfam);
+  color: var(--main-text-color);
+  height: 10em;
+  width: 15em;
+  font-size: 1em;
+  margin: 0.5em;
+  background-color: var(--main-bg-color);
+  border-color: var(--main-accent-color);
+  border-radius: 10px;
+  transition-duration: 0.2s;
+}
+
+#welcomeIng {
+  margin-left: 1em;
+}
+
+#welcome button:hover {
+  color: var(--main-bg-color);
+  background-color: var(--main-accent-color);
+  cursor: pointer;
+}
