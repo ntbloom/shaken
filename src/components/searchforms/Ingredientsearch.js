@@ -1,8 +1,4 @@
-/** @format */
-
-// Ingredientsearch.js -- search for drinks by ingredient
-
-import React, { Component } from "react";
+import { Component } from "react";
 import Results from "../results/Results";
 import { ipAddress } from "../../ipAddress";
 

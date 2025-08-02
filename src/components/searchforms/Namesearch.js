@@ -1,8 +1,4 @@
-/** @format */
-
-// Namesearch, search for drinks by name, passes drinks to Results
-
-import React, { Component } from "react";
+import { Component } from "react";
 import Results from "../results/Results";
 import { ipAddress } from "../../ipAddress";
 

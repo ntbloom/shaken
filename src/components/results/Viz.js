@@ -1,8 +1,4 @@
-/** @format */
-
-// Drinkviz.js -- 3d modeling of drinks
-
-import React, { Component } from "react";
+import { Component } from "react";
 import * as d3 from "d3";
 //eslint-disable-next-line
 

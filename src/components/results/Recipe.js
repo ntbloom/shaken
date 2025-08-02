@@ -1,8 +1,4 @@
-/** @format */
-
-// Recipe, list of drinks returned by search form, rendered in html
-
-import React, { Component } from "react";
+import { Component } from "react";
 
 function fractionize(num) {
   // convert decimal to fractions

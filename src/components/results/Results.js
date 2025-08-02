@@ -1,8 +1,4 @@
-/** @format */
-
-// Results, makes api call and passes results to drinklist
-
-import React, { Component } from "react";
+import { Component } from "react";
 import Info from "./Info";
 import Viz from "./Viz";
 

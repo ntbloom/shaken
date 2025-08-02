@@ -1,12 +1,14 @@
-import './App.css';
+import { Component } from "react";
+import Navbar from "./components/navbar/Navbar";
 
-const App = () => {
-  return (
-    <div className="content">
-      <h1>Rsbuild with React</h1>
-      <p>Start building amazing things with Rsbuild.</p>
-    </div>
-  );
-};
+class App extends Component {
+    render() {
+        return (
+            <div className="siteWrapper">
+                <Navbar />
+            </div>
+        );
+    }
+}
 
 export default App;

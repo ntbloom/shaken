@@ -1,8 +1,4 @@
-/** @format */
-
-// Info, wrapper for rendering individual drink components
-
-import React, { Component } from "react";
+import { Component } from "react";
 import Drink from "./Drink";
 
 class Info extends Component {

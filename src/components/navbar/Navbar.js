@@ -1,13 +1,10 @@
-/** @format */
+import { Component } from "react";
+import { BrowserRouter, Link, Navigate, Route } from "react-router-dom";
 
-// Main.js -- mainpage for loading drinkbase
-
-import React, { Component } from "react";
-import { BrowserRouter, Route, Redirect, Link } from "react-router-dom";
-import Welcome from "./Welcome";
 import Ingredientsearch from "../searchforms/Ingredientsearch";
 import Namesearch from "../searchforms/Namesearch";
 import { ipAddress } from "../../ipAddress";
+import Welcome from "./Welcome";
 
 const allDrinksURL = ipAddress.concat("allDrinks/");
 
@@ -135,7 +132,7 @@ class Navbar extends Component {
                 drinkViz
               </button>
             </nav>
-            <Route path="/" render={() => <Redirect to="/drinkbase" />} />
+            <Route path="/" render={() => <Navigate to="/drinkbase" />} />
             <Route
               path="/drinkbase"
               render={props => (

@@ -1,9 +1,6 @@
-/** @format */
-
-// Welcome.js -- First page you see when you get here
-
-import React, { Component } from "react";
+import { Component } from "react";
 import { BrowserRouter, Route } from "react-router-dom";
+
 import Ingredientsearch from "../searchforms/Ingredientsearch";
 import Namesearch from "../searchforms/Namesearch";
 import Buttons from "./Buttons";

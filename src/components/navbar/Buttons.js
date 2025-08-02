@@ -1,8 +1,4 @@
-/* @format */
-
-// Buttons.js -- navbuttons for Welcome.js
-
-import React, { Component } from "react";
+import { Component } from "react";
 import { Link } from "react-router-dom";
 import { setIngSearch, setNameSearch } from "./Navbar";
 
