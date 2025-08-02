@@ -1,27 +1,27 @@
-import { Component } from "react";
-import { BrowserRouter, Link, Navigate, Route } from "react-router-dom";
+import { Component } from 'react';
+import { BrowserRouter, Link, Navigate, Route } from 'react-router-dom';
 
-import Ingredientsearch from "../searchforms/Ingredientsearch";
-import Namesearch from "../searchforms/Namesearch";
-import { ipAddress } from "../../ipAddress";
-import Welcome from "./Welcome";
+import Ingredientsearch from '../searchforms/Ingredientsearch';
+import Namesearch from '../searchforms/Namesearch';
+import { ipAddress } from '../../ipAddress';
+import Welcome from './Welcome';
 
-const allDrinksURL = ipAddress.concat("allDrinks/");
+const allDrinksURL = ipAddress.concat('allDrinks/');
 
 export function setIngSearch() {
   // styles ingredient search button when active
-  let element1 = document.getElementById("ingButton");
-  element1.style.borderBottom = "3px solid var(--main-accent-color)";
-  let element2 = document.getElementById("nameButton");
-  element2.style.borderBottom = "none";
+  let element1 = document.getElementById('ingButton');
+  element1.style.borderBottom = '3px solid var(--main-accent-color)';
+  let element2 = document.getElementById('nameButton');
+  element2.style.borderBottom = 'none';
 }
 
 export function setNameSearch() {
   // styles name search button when active
-  let element1 = document.getElementById("nameButton");
-  element1.style.borderBottom = "3px solid var(--main-accent-color)";
-  let element2 = document.getElementById("ingButton");
-  element2.style.borderBottom = "none";
+  let element1 = document.getElementById('nameButton');
+  element1.style.borderBottom = '3px solid var(--main-accent-color)';
+  let element2 = document.getElementById('ingButton');
+  element2.style.borderBottom = 'none';
 }
 
 class Navbar extends Component {
@@ -41,10 +41,10 @@ class Navbar extends Component {
   getAllDrinks() {
     //gets all drinks for Viz
     fetch(allDrinksURL)
-      .then(response => {
+      .then((response) => {
         return response.json();
       })
-      .then(data => {
+      .then((data) => {
         this.setState({
           allDrinks: data,
         });
@@ -54,8 +54,8 @@ class Navbar extends Component {
           const name = data.Drinks[i].Name;
           const info = data.Drinks[i].Data;
           const recipe = data.Drinks[i].Recipe;
-          tempObj["Data"] = info;
-          tempObj["Recipe"] = recipe;
+          tempObj['Data'] = info;
+          tempObj['Recipe'] = recipe;
           drinkList[name] = tempObj;
         }
         this.setState({
@@ -63,22 +63,22 @@ class Navbar extends Component {
           vizReady: true,
         });
       })
-      .catch(error => {
-        console.log("Fetch error in IndexResults.js:", error);
+      .catch((error) => {
+        console.log('Fetch error in IndexResults.js:', error);
       });
   }
 
   vizClick() {
     // toggles drinkViz on/off and styles button accordingly
-    let element = document.getElementById("vizButton");
+    let element = document.getElementById('vizButton');
     if (this.state.viz) {
       this.setState({ viz: false });
-      element.innerHTML = "enable <br/> drinkViz";
-      element.style.borderBottom = "none";
+      element.innerHTML = 'enable <br/> drinkViz';
+      element.style.borderBottom = 'none';
     } else {
       this.setState({ viz: true });
-      element.innerHTML = "disable <br/> drinkViz";
-      element.style.borderBottom = "medium solid var(--main-accent-color)";
+      element.innerHTML = 'disable <br/> drinkViz';
+      element.style.borderBottom = 'medium solid var(--main-accent-color)';
     }
   }
 
@@ -92,7 +92,7 @@ class Navbar extends Component {
                 <Link to="/drinkbase">
                   <img
                     id="smallLogo"
-                    src={require("../../images/smallLogo.png")}
+                    src={require('../../images/smallLogo.png')}
                     alt="drinkBase small logo"
                     height="30"
                   />
@@ -135,7 +135,7 @@ class Navbar extends Component {
             <Route path="/" render={() => <Navigate to="/drinkbase" />} />
             <Route
               path="/drinkbase"
-              render={props => (
+              render={(props) => (
                 <Welcome
                   {...props}
                   viz={this.state.viz}
@@ -147,7 +147,7 @@ class Navbar extends Component {
             />
             <Route
               path="/ingredientsearch"
-              render={props => (
+              render={(props) => (
                 <Ingredientsearch
                   {...props}
                   viz={this.state.viz}
@@ -159,7 +159,7 @@ class Navbar extends Component {
             />
             <Route
               path="/namesearch"
-              render={props => (
+              render={(props) => (
                 <Namesearch
                   {...props}
                   viz={this.state.viz}

@@ -1,12 +1,12 @@
-import { Component } from "react";
-import Recipe from "./Recipe";
-import { cleanID } from "./Viz";
+import { Component } from 'react';
+import Recipe from './Recipe';
+import { cleanID } from './Viz';
 
 function pullIngreds(obj) {
   // converts ingredient object into an array
   let ingredients = [];
   for (let i = 0; i < obj.length; i++) {
-    ingredients.push(" " + obj[i]["Ingredient"]);
+    ingredients.push(' ' + obj[i]['Ingredient']);
   }
   ingredients = ingredients.toString();
   return ingredients;
@@ -35,10 +35,10 @@ class Drink extends Component {
     const allDrinks = this.props.allDrinks;
     let style = allDrinks[drink].Data.Style;
     style = style.charAt(0).toUpperCase() + style.slice(1);
-    if (style === "Double shake") {
-      style = "DoubleShake";
+    if (style === 'Double shake') {
+      style = 'DoubleShake';
     }
-    const color = "var(--viz".concat(style).concat(")");
+    const color = 'var(--viz'.concat(style).concat(')');
     return color;
   }
 
@@ -62,8 +62,8 @@ class Drink extends Component {
     const drink = this.props.name;
     const allDrinks = this.props.allDrinks;
     const style = allDrinks[drink].Data.Style;
-    if (style === "double shake") {
-      return "egg white";
+    if (style === 'double shake') {
+      return 'egg white';
     } else {
       return style;
     }
@@ -84,8 +84,8 @@ class Drink extends Component {
         bool = 1;
       }
       if (bool === 1) {
-        circle.style.strokeWidth = "4";
-        circle.style.fillOpacity = "1";
+        circle.style.strokeWidth = '4';
+        circle.style.fillOpacity = '1';
       } else {
         circle.style.strokeWidth = this.state.origStrokeWidth;
         circle.style.fillOpacity = this.state.origFillOpacity;
@@ -125,8 +125,8 @@ class Drink extends Component {
           <div className="metrics">
             <p>
               {Math.ceil(allDrinks[name].Data.Volume).toString()} ounces |
-              {"    "}
-              <span style={drinkType}>{this.displayStyle()}</span> |{"    "}
+              {'    '}
+              <span style={drinkType}>{this.displayStyle()}</span> |{'    '}
               {Math.round(allDrinks[name].Data.ABV * 100, 1)}% abv
               {/* 
                   |{"  "}

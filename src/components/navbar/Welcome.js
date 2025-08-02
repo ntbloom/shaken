@@ -1,9 +1,9 @@
-import { Component } from "react";
-import { BrowserRouter, Route } from "react-router-dom";
+import { Component } from 'react';
+import { BrowserRouter, Route } from 'react-router-dom';
 
-import Ingredientsearch from "../searchforms/Ingredientsearch";
-import Namesearch from "../searchforms/Namesearch";
-import Buttons from "./Buttons";
+import Ingredientsearch from '../searchforms/Ingredientsearch';
+import Namesearch from '../searchforms/Namesearch';
+import Buttons from './Buttons';
 
 class Welcome extends Component {
   render() {
@@ -13,7 +13,7 @@ class Welcome extends Component {
           <Route path="/drinkbase" exact component={Buttons} />
           <Route
             path="/ingredientsearch"
-            render={props => (
+            render={(props) => (
               <Ingredientsearch
                 {...props}
                 viz={this.props.viz}
@@ -25,7 +25,7 @@ class Welcome extends Component {
           />
           <Route
             path="/namesearch"
-            render={props => (
+            render={(props) => (
               <Namesearch
                 {...props}
                 viz={this.props.viz}

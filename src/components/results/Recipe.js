@@ -1,25 +1,25 @@
-import { Component } from "react";
+import { Component } from 'react';
 
 function fractionize(num) {
   // convert decimal to fractions
   if (num === 0.25) {
-    return "1/4";
+    return '1/4';
   } else if (num === 0.5) {
-    return "1/2";
+    return '1/2';
   } else if (num === 0.75) {
-    return "3/4";
+    return '3/4';
   } else if (num === 1.25) {
-    return "1 1/4";
+    return '1 1/4';
   } else if (num === 1.5) {
-    return "1 1/2";
+    return '1 1/2';
   } else if (num === 1.75) {
-    return "1 3/4";
+    return '1 3/4';
   } else if (num === 2.25) {
-    return "2 1/4";
+    return '2 1/4';
   } else if (num === 2.5) {
-    return "2 1/2";
+    return '2 1/2';
   } else if (num === 2.75) {
-    return "2 3/4";
+    return '2 3/4';
   } else {
     return num;
   }
@@ -46,18 +46,18 @@ class Recipe extends Component {
       let amount = fractionize(recipe[i].Amount);
       let unit = recipe[i].Unit;
       let ingredient = recipe[i].Ingredient;
-      if (amount > 1 && unit === "dash") {
-        unit = "dashes";
+      if (amount > 1 && unit === 'dash') {
+        unit = 'dashes';
       }
-      let fullIngred = "";
-      if (unit === "each") {
-        fullIngred = amount + " " + ingredient;
+      let fullIngred = '';
+      if (unit === 'each') {
+        fullIngred = amount + ' ' + ingredient;
       } else {
-        fullIngred = amount + " " + unit + " " + ingredient;
+        fullIngred = amount + ' ' + unit + ' ' + ingredient;
       }
       recipeArray.push(fullIngred);
     }
-    const fullRecipe = recipeArray.map(ingredient => (
+    const fullRecipe = recipeArray.map((ingredient) => (
       <p key={recipeArray.indexOf(ingredient).toString()}>{ingredient}</p>
     ));
 
@@ -71,7 +71,7 @@ class Recipe extends Component {
   }
 
   handleClick() {
-    this.setState(prevState => ({
+    this.setState((prevState) => ({
       showRecipe: !prevState.showRecipe,
     }));
   }

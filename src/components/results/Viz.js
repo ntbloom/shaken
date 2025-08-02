@@ -1,27 +1,27 @@
-import { Component } from "react";
-import * as d3 from "d3";
+import { Component } from 'react';
+import * as d3 from 'd3';
 //eslint-disable-next-line
 
 export function cleanID(name) {
   // removes spaces & special chars for dynamic css-friendly IDs
   const nums = {
-    1: "One",
-    2: "Two",
-    3: "Three",
-    4: "Four",
-    5: "Five",
-    6: "Six",
-    7: "Seven",
-    8: "Eight",
-    9: "Nine",
-    0: "Zero",
+    1: 'One',
+    2: 'Two',
+    3: 'Three',
+    4: 'Four',
+    5: 'Five',
+    6: 'Six',
+    7: 'Seven',
+    8: 'Eight',
+    9: 'Nine',
+    0: 'Zero',
   };
   for (let i = 0; i < 10; i++) {
     const re = new RegExp(i);
     name = name.replace(re, nums[i]);
   }
   // removes special chars
-  const id = name.replace(/[^\w]/gi, "");
+  const id = name.replace(/[^\w]/gi, '');
   return id;
 }
 
@@ -80,54 +80,54 @@ class Drinkviz extends Component {
 
   drawAxes() {
     // puts gridlines on plot
-    const drinksSVG = d3.select("#chart");
+    const drinksSVG = d3.select('#chart');
     const width = window.innerWidth * this.state.widthFactor;
     const height =
       (window.innerWidth * this.state.widthFactor) / this.state.aspectRatio;
 
     // deleting old lines
-    drinksSVG.selectAll("line").remove();
-    drinksSVG.selectAll("text").remove();
+    drinksSVG.selectAll('line').remove();
+    drinksSVG.selectAll('text').remove();
 
     // drawing the gridlines and axes
     drinksSVG // x-axis
-      .append("line")
-      .attr("className", "axis")
-      .attr("x1", width * 0.1)
-      .attr("x2", width * 0.9)
-      .attr("y1", height - 0.1 * height)
-      .attr("y2", height - 0.1 * height)
-      .attr("stroke", "var(--vizLines)");
+      .append('line')
+      .attr('className', 'axis')
+      .attr('x1', width * 0.1)
+      .attr('x2', width * 0.9)
+      .attr('y1', height - 0.1 * height)
+      .attr('y2', height - 0.1 * height)
+      .attr('stroke', 'var(--vizLines)');
     drinksSVG // y-axis
-      .append("line")
-      .attr("x1", 0.1 * width)
-      .attr("x2", 0.1 * width)
-      .attr("y1", height * 0.1)
-      .attr("y2", height * 0.9)
-      .attr("stroke", "var(--vizLines)");
+      .append('line')
+      .attr('x1', 0.1 * width)
+      .attr('x2', 0.1 * width)
+      .attr('y1', height * 0.1)
+      .attr('y2', height * 0.9)
+      .attr('stroke', 'var(--vizLines)');
     drinksSVG // x-axis label
-      .append("text")
-      .text("Total Sugar*")
-      .attr("x", width * 0.5) // needs adjustment
-      .attr("y", height * 0.98) // needs adjustment
-      .attr("text-anchor", "middle")
-      .attr("alignment-baseline", "ideographic")
-      .style("fill", "var(--vizLabels)")
-      .style("font-size", "100%")
-      .attr("opacity", 0.4);
+      .append('text')
+      .text('Total Sugar*')
+      .attr('x', width * 0.5) // needs adjustment
+      .attr('y', height * 0.98) // needs adjustment
+      .attr('text-anchor', 'middle')
+      .attr('alignment-baseline', 'ideographic')
+      .style('fill', 'var(--vizLabels)')
+      .style('font-size', '100%')
+      .attr('opacity', 0.4);
     drinksSVG // y-axis label
-      .append("text")
-      .text("Total Alcohol")
-      .attr("x", width * 0.95)
-      .attr("y", -height / 1.4)
-      .attr("text-anchor", "middle")
-      .attr("alignment-baseline", "ideographic")
-      .style("fill", "var(--vizLabels)")
-      .style("font-size", "100%")
-      .attr("opacity", 0.4)
+      .append('text')
+      .text('Total Alcohol')
+      .attr('x', width * 0.95)
+      .attr('y', -height / 1.4)
+      .attr('text-anchor', 'middle')
+      .attr('alignment-baseline', 'ideographic')
+      .style('fill', 'var(--vizLabels)')
+      .style('font-size', '100%')
+      .attr('opacity', 0.4)
       .attr(
-        "transform",
-        "rotate(270 ".concat(width * 0.946, " ", height * 0.468, ")"),
+        'transform',
+        'rotate(270 '.concat(width * 0.946, ' ', height * 0.468, ')'),
       );
   }
 
@@ -141,29 +141,29 @@ class Drinkviz extends Component {
     }
 
     const allDrinks = this.props.allDrinks;
-    const drinksSVG = d3.select("#chart");
+    const drinksSVG = d3.select('#chart');
     const width = window.innerWidth * this.state.widthFactor;
     const height =
       (window.innerWidth * this.state.widthFactor) / this.state.aspectRatio;
 
     // for laying out data
 
-    drinksSVG.selectAll("circle").remove();
+    drinksSVG.selectAll('circle').remove();
 
     // highlights drinks returned by search
     const abvCirc = drinksSVG;
     abvCirc
-      .selectAll("#abvCircle")
+      .selectAll('#abvCircle')
       .data(allDrinks.Drinks)
       .enter()
-      .append("circle")
-      .attr("id", d => {
+      .append('circle')
+      .attr('id', (d) => {
         const name = cleanID(d.Name);
         return name;
       })
 
       // circle outlines for selected drinks
-      .attr("stroke-width", d => {
+      .attr('stroke-width', (d) => {
         if (picks.includes(d.Name)) {
           return 0.75;
         } else {
@@ -171,8 +171,8 @@ class Drinkviz extends Component {
         }
       })
       // circle opacity
-      .attr("stroke", "var(--vizCircleOutline)")
-      .attr("fill-opacity", d => {
+      .attr('stroke', 'var(--vizCircleOutline)')
+      .attr('fill-opacity', (d) => {
         if (picks.includes(d.Name)) {
           return 0.5;
         } else {
@@ -181,7 +181,7 @@ class Drinkviz extends Component {
       })
 
       // position circles on chart
-      .attr("cx", d => {
+      .attr('cx', (d) => {
         const xScale =
           (this.state.maxSug - this.state.minSug) / this.state.maxSug;
         const leftBuffer = 0.15 * width;
@@ -196,44 +196,44 @@ class Drinkviz extends Component {
         }
         return sweet;
       })
-      .attr("cy", d => {
+      .attr('cy', (d) => {
         const yScale =
           (this.state.maxAlc - this.state.minAlc) / this.state.maxAlc;
         let alcohol = d.Data.AlcoholUnits / this.state.maxAlc;
         alcohol = height - alcohol * yScale * height;
         return alcohol;
       })
-      .attr("r", d => {
+      .attr('r', (d) => {
         let volume = d.Data.Volume;
         volume = volume * window.innerWidth * this.state.circSizeFactor;
         return volume;
       })
 
       // colors circles based on drink type
-      .attr("fill", d => {
-        if (d.Data.Style.includes("stirred")) {
-          return "#a5693d";
-        } else if (d.Data.Style.includes("bubbly")) {
-          return "var(--vizBubbly)";
-        } else if (d.Data.Style.includes("shaken")) {
-          return "var(--vizShaken)";
-        } else if (d.Data.Style.includes("double shake")) {
-          return "var(--vizDoubleShake)";
-        } else if (d.Data.Style.includes("fizz")) {
-          return "var(--vizFizz)";
-        } else if (d.Data.Style.includes("swizzle")) {
-          return "var(--vizSwizzle)";
-        } else if (d.Data.Style.includes("built")) {
-          return "var(--vizBuilt)";
-        } else if (d.Data.Style.includes("hot")) {
-          return "var(--vizHot)";
+      .attr('fill', (d) => {
+        if (d.Data.Style.includes('stirred')) {
+          return '#a5693d';
+        } else if (d.Data.Style.includes('bubbly')) {
+          return 'var(--vizBubbly)';
+        } else if (d.Data.Style.includes('shaken')) {
+          return 'var(--vizShaken)';
+        } else if (d.Data.Style.includes('double shake')) {
+          return 'var(--vizDoubleShake)';
+        } else if (d.Data.Style.includes('fizz')) {
+          return 'var(--vizFizz)';
+        } else if (d.Data.Style.includes('swizzle')) {
+          return 'var(--vizSwizzle)';
+        } else if (d.Data.Style.includes('built')) {
+          return 'var(--vizBuilt)';
+        } else if (d.Data.Style.includes('hot')) {
+          return 'var(--vizHot)';
         } else {
-          return "var(--vizDefault)";
+          return 'var(--vizDefault)';
         }
       })
 
-      .on("mouseover", this.highlight)
-      .on("mouseout", this.unhighlight);
+      .on('mouseover', this.highlight)
+      .on('mouseout', this.unhighlight);
     //TODO: enable click events to render <Ingviz/>
     //.on("click", this.handleClick);
   }
@@ -244,19 +244,19 @@ class Drinkviz extends Component {
     // eslint-disable-next-line
     const circle = d3
       .select(id)
-      .attr("fill-opacity", 1)
-      .attr("stroke-width", 1.5);
+      .attr('fill-opacity', 1)
+      .attr('stroke-width', 1.5);
 
-    d3.select("#tooltip")
-      .style("left", 25 + "px")
-      .style("top", -25 + "px")
+    d3.select('#tooltip')
+      .style('left', 25 + 'px')
+      .style('top', -25 + 'px')
       //.text(d.Name)
       //     .style("background-color", fill)
-      .style("visibility", "visible");
+      .style('visibility', 'visible');
 
-    d3.select("#drinkName").text(d.Name);
+    d3.select('#drinkName').text(d.Name);
     //d3.select("#drinkStyle").text(d.Data.Style);
-    d3.select("#drinkIngredients").text(d.Data.IngredientString);
+    d3.select('#drinkIngredients').text(d.Data.IngredientString);
   }
 
   unhighlight(d, i) {
@@ -266,27 +266,27 @@ class Drinkviz extends Component {
     }
     // eslint-disable-next-line
     const circle = d3
-      .select("#".concat(cleanID(d.Name)))
-      .attr("fill-opacity", d => {
+      .select('#'.concat(cleanID(d.Name)))
+      .attr('fill-opacity', (d) => {
         if (picks.includes(d.Name)) {
           return 0.7;
         } else {
           return 0.02;
         }
       })
-      .attr("stroke-width", d => {
+      .attr('stroke-width', (d) => {
         if (picks.includes(d.Name)) {
           return 0.7;
         } else {
           return 0.2;
         }
       });
-    d3.select("#tooltip").style("visibility", "hidden");
+    d3.select('#tooltip').style('visibility', 'hidden');
   }
 
   handleClick(d, i) {
-    const ingviz = document.getElementById("Ingviz");
-    ingviz.style.display = "block";
+    const ingviz = document.getElementById('Ingviz');
+    ingviz.style.display = 'block';
     const name = d.Name;
     this.setState({ nameclick: name });
   }
@@ -294,17 +294,17 @@ class Drinkviz extends Component {
   render() {
     // style rules
     const tooltipStyle = {
-      fontFamily: "var(--primary-fontfam)",
-      fontSize: "12px",
-      paddingLeft: "2em",
+      fontFamily: 'var(--primary-fontfam)',
+      fontSize: '12px',
+      paddingLeft: '2em',
     };
     const chartStyle = {
-      paddingLeft: "1em",
+      paddingLeft: '1em',
     };
     const temp = {
-      fontFamily: "var(--primary-fontfam)",
-      fontSize: "10px",
-      paddingLeft: "5em",
+      fontFamily: 'var(--primary-fontfam)',
+      fontSize: '10px',
+      paddingLeft: '5em',
     };
     return (
       <>

@@ -2,13 +2,13 @@
 /* index.css -- sitewide stylesheets */
 
 /* global imports */
-@import url("navbar.css");
-@import url("displayDrinks.css");
-@import url("spinner.css");
-@import url("welcome.css");
+@import url('navbar.css');
+@import url('displayDrinks.css');
+@import url('spinner.css');
+@import url('welcome.css');
 
 /* font imports */
-@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 /* media queries */
 
@@ -28,7 +28,7 @@
 }
 /* for mobile devices and smaller screens */
 @media (min-width: 901px) {
-  @import url("smallScreenResults.css");
+  @import url('smallScreenResults.css');
   html {
     font-size: 16px;
   }
@@ -55,7 +55,7 @@
   --navbar-txt-color: #efeae5;
 
   /* fonts */
-  --primary-fontfam: "Roboto", sans-serif;
+  --primary-fontfam: 'Roboto', sans-serif;
   --secondary-fontfam: sans-serif;
 
   /* drinkViz */

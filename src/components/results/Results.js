@@ -1,6 +1,6 @@
-import { Component } from "react";
-import Info from "./Info";
-import Viz from "./Viz";
+import { Component } from 'react';
+import Info from './Info';
+import Viz from './Viz';
 
 class Results extends Component {
   constructor(props) {
@@ -16,14 +16,14 @@ class Results extends Component {
     // calls Flask API
     let api = this.props.url;
     const url = api.concat(this.props.query);
-    fetch(url).then(response => {
+    fetch(url).then((response) => {
       response
         .json()
-        .then(data => {
+        .then((data) => {
           this.setState({ picks: data, received: true });
         })
-        .catch(error => {
-          console.log("Fetch error in Results.js:", error);
+        .catch((error) => {
+          console.log('Fetch error in Results.js:', error);
         });
     });
   }

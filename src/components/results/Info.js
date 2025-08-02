@@ -1,5 +1,5 @@
-import { Component } from "react";
-import Drink from "./Drink";
+import { Component } from 'react';
+import Drink from './Drink';
 
 class Info extends Component {
   constructor(props) {
@@ -21,7 +21,7 @@ class Info extends Component {
     if (picks.length === 0) {
       return <p id="noResults">Sorry, no drinks match your results</p>;
     } else {
-      const pickNames = picks.map(drink => (
+      const pickNames = picks.map((drink) => (
         <Drink
           key={drink}
           name={drink}

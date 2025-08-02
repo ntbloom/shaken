@@ -1,6 +1,6 @@
-import { Component } from "react";
-import { Link } from "react-router-dom";
-import { setIngSearch, setNameSearch } from "./Navbar";
+import { Component } from 'react';
+import { Link } from 'react-router-dom';
+import { setIngSearch, setNameSearch } from './Navbar';
 
 class Buttons extends Component {
   constructor(props) {
@@ -28,15 +28,15 @@ class Buttons extends Component {
 
   clickRand() {
     // click handler for random button
-    window.alert("coming soon!");
+    window.alert('coming soon!');
   }
 
   clearNavbar() {
     // removes underlines from navbar when page is shown on screen
-    const name = document.getElementById("nameButton");
-    name.style.borderBottom = "none";
-    const ing = document.getElementById("ingButton");
-    ing.style.borderBottom = "none";
+    const name = document.getElementById('nameButton');
+    name.style.borderBottom = 'none';
+    const ing = document.getElementById('ingButton');
+    ing.style.borderBottom = 'none';
   }
 
   render() {
@@ -44,7 +44,7 @@ class Buttons extends Component {
       <div id="welcome">
         <img
           id="bigLogo"
-          src={require("../../images/drinkBaseWhite.png")}
+          src={require('../../images/drinkBaseWhite.png')}
           alt="drinkBase"
           height="125"
         />

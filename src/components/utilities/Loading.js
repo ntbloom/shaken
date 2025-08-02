@@ -2,7 +2,7 @@
 
 // Loading.js -- loading spinner
 
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 class Loading extends Component {
   constructor(props) {
@@ -20,13 +20,13 @@ class Loading extends Component {
           id="flute1"
           width={this.state.size}
           alt="clinking flute"
-          src={require("../../images/flutes.png")}
+          src={require('../../images/flutes.png')}
         />
         <img
           id="flute2"
           width={this.state.size}
           alt="clinking flute"
-          src={require("../../images/flutes.png")}
+          src={require('../../images/flutes.png')}
         />
       </div>
     );

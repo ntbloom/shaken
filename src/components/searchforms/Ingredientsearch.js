@@ -1,16 +1,16 @@
-import { Component } from "react";
-import Results from "../results/Results";
-import { ipAddress } from "../../ipAddress";
+import { Component } from 'react';
+import Results from '../results/Results';
+import { ipAddress } from '../../ipAddress';
 
-const url = ipAddress.concat("ingreds/");
+const url = ipAddress.concat('ingreds/');
 
 class Ingredientsearch extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      included: "",
-      excluded: "",
-      query: "",
+      included: '',
+      excluded: '',
+      query: '',
       submitted: false,
     };
     this.handleChange = this.handleChange.bind(this);
@@ -22,7 +22,7 @@ class Ingredientsearch extends Component {
   }
   handleSubmit(event) {
     this.setState({
-      query: "?incl=" + this.state.included + "&excl=" + this.state.excluded,
+      query: '?incl=' + this.state.included + '&excl=' + this.state.excluded,
       submitted: true,
     });
     //console.log("query: ", this.state.query)
