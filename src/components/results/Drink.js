@@ -12,6 +12,29 @@ function pullIngreds(obj) {
   return ingredients;
 }
 
+function cleanID(name) {
+  // removes spaces & special chars for dynamic css-friendly IDs
+  const nums = {
+    1: 'One',
+    2: 'Two',
+    3: 'Three',
+    4: 'Four',
+    5: 'Five',
+    6: 'Six',
+    7: 'Seven',
+    8: 'Eight',
+    9: 'Nine',
+    0: 'Zero',
+  };
+  for (let i = 0; i < 10; i++) {
+    const re = new RegExp(i);
+    name = name.replace(re, nums[i]);
+  }
+  // removes special chars
+  const id = name.replace(/[^\w]/gi, '');
+  return id;
+}
+
 class Drink extends Component {
   constructor(props) {
     super(props);

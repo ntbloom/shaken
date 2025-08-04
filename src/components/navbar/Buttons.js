@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
 import { setIngSearch, setNameSearch } from './Navbar';
 
 class Buttons extends Component {
@@ -61,13 +61,6 @@ class Buttons extends Component {
               <br /> by drink names
             </Link>
           </button>
-          {/*
-          <button type="button" id="welcomeRand" onClick={this.clickRand}>
-            Uggh, can <i>you </i>just
-            <br />
-            pick a drink?
-          </button>
-          */}
         </div>
       </div>
     );

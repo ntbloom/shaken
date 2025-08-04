@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import { BrowserRouter, Link, Navigate, Route } from 'react-router-dom';
+import { BrowserRouter, Link, Navigate, Routes, Route } from 'react-router';
 
 import Ingredientsearch from '../searchforms/Ingredientsearch';
 import Namesearch from '../searchforms/Namesearch';
@@ -30,7 +30,6 @@ class Navbar extends Component {
     this.state = {
       viz: false,
     };
-    this.vizClick = this.vizClick.bind(this);
     this.getAllDrinks = this.getAllDrinks.bind(this);
   }
 
@@ -68,20 +67,6 @@ class Navbar extends Component {
       });
   }
 
-  vizClick() {
-    // toggles drinkViz on/off and styles button accordingly
-    let element = document.getElementById('vizButton');
-    if (this.state.viz) {
-      this.setState({ viz: false });
-      element.innerHTML = 'enable <br/> drinkViz';
-      element.style.borderBottom = 'none';
-    } else {
-      this.setState({ viz: true });
-      element.innerHTML = 'disable <br/> drinkViz';
-      element.style.borderBottom = 'medium solid var(--main-accent-color)';
-    }
-  }
-
   render() {
     return (
       <>
@@ -89,14 +74,12 @@ class Navbar extends Component {
           <>
             <nav className="navbar">
               <div id="smallLogoDiv">
-                <Link to="/drinkbase">
                   <img
                     id="smallLogo"
                     src={require('../../images/smallLogo.png')}
                     alt="drinkBase small logo"
                     height="30"
                   />
-                </Link>
               </div>
               <button
                 title="query the database by individual ingredients"
@@ -122,53 +105,31 @@ class Navbar extends Component {
                   drink name
                 </Link>
               </button>
-              <button
-                title="enable visualization aid"
-                className="navbutton"
-                id="vizButton"
-                onClick={this.vizClick}
-              >
-                enable <br />
-                drinkViz
-              </button>
             </nav>
-            <Route path="/" render={() => <Navigate to="/drinkbase" />} />
-            <Route
-              path="/drinkbase"
-              render={(props) => (
-                <Welcome
-                  {...props}
-                  viz={this.state.viz}
-                  allDrinks={this.state.allDrinks}
-                  drinkList={this.state.drinkList}
-                  vizReady={this.state.vizReady}
-                />
-              )}
-            />
-            <Route
-              path="/ingredientsearch"
-              render={(props) => (
-                <Ingredientsearch
-                  {...props}
-                  viz={this.state.viz}
-                  allDrinks={this.state.allDrinks}
-                  drinkList={this.state.drinkList}
-                  vizReady={this.state.vizReady}
-                />
-              )}
-            />
-            <Route
-              path="/namesearch"
-              render={(props) => (
-                <Namesearch
-                  {...props}
-                  viz={this.state.viz}
-                  allDrinks={this.state.allDrinks}
-                  drinkList={this.state.drinkList}
-                  vizReady={this.state.vizReady}
-                />
-              )}
-            />
+            <Routes>
+              <Route
+                path="/ingredientsearch"
+                element={
+                  <Ingredientsearch
+                    viz={this.state.viz}
+                    allDrinks={this.state.allDrinks}
+                    drinkList={this.state.drinkList}
+                    vizReady={this.state.vizReady}
+                  />
+                }
+              />
+              <Route
+                path="/namesearch"
+                element={
+                  <Namesearch
+                    viz={this.state.viz}
+                    allDrinks={this.state.allDrinks}
+                    drinkList={this.state.drinkList}
+                    vizReady={this.state.vizReady}
+                  />
+                }
+              />
+            </Routes>
           </>
         </BrowserRouter>
       </>

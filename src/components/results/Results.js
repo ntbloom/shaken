@@ -1,6 +1,5 @@
 import { Component } from 'react';
 import Info from './Info';
-import Viz from './Viz';
 
 class Results extends Component {
   constructor(props) {
@@ -39,32 +38,13 @@ class Results extends Component {
     }
   }
   render() {
-    //console.log("Results.js fetch response (picks):", this.state.picks);
-    const allVizDrinks = this.props.allDrinks;
     const drinkList = this.props.drinkList;
     const picks = this.state.picks;
-    if (this.props.allDrinks && this.props.viz) {
-      return (
-        <>
-          <div id="yv_viz">
-            <Viz allDrinks={allVizDrinks} picks={picks} drinkList={drinkList} />
-          </div>
-          <div id="yv_results">
-            <Info drinkList={drinkList} picks={picks} viz={this.props.viz} />
-          </div>
-        </>
-      );
-    } else if (this.props.allDrinks) {
-      return (
-        <>
-          <div id="nv_results">
-            <Info drinkList={drinkList} picks={picks} viz={this.props.viz} />
-          </div>
-        </>
-      );
-    } else {
-      return null;
-    }
+    return this.props.allDrinks ? (
+      <div id="nv_results">
+        <Info drinkList={drinkList} picks={picks} viz={this.props.viz} />
+      </div>
+    ) : null;
   }
 }
 
