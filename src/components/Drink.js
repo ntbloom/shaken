@@ -1,6 +1,5 @@
 import { Component } from 'react';
 import Recipe from './Recipe';
-import { cleanID } from './Viz';
 
 function pullIngreds(obj) {
   // converts ingredient object into an array

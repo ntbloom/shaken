@@ -1,15 +1,19 @@
 import { Component } from 'react';
-import Searchbar from './components/searchforms/Searchbar';
-import Navbar from './components/navbar/Navbar';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="siteWrapper">
-        {/* <Searchbar /> */}
-        <Navbar />
-      </div>
+      <>
+        <div className="siteWrapper">
+          <Navbar />
+        </div>
+        <div>
+          <Footer />
+        </div>
+      </>
     );
   }
 }

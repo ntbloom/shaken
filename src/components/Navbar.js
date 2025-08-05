@@ -1,12 +1,12 @@
 import { Component } from 'react';
-import { BrowserRouter, Link, Navigate, Routes, Route } from 'react-router';
+import { BrowserRouter, Link, Routes, Route } from 'react-router';
 
-import Ingredientsearch from '../searchforms/Ingredientsearch';
-import Namesearch from '../searchforms/Namesearch';
-import { ipAddress } from '../../ipAddress';
-import Welcome from './Welcome';
+import Ingredientsearch from './Ingredientsearch';
+import Namesearch from './Namesearch';
+import { ipAddress } from '../ipAddress';
 
 const allDrinksURL = ipAddress.concat('allDrinks/');
+const smallLogo = require('../images/smallLogo.png');
 
 export function setIngSearch() {
   // styles ingredient search button when active
@@ -76,7 +76,7 @@ class Navbar extends Component {
               <div id="smallLogoDiv">
                   <img
                     id="smallLogo"
-                    src={require('../../images/smallLogo.png')}
+                    src={smallLogo}
                     alt="drinkBase small logo"
                     height="30"
                   />
