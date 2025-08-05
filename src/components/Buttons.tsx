@@ -2,6 +2,8 @@ import { Component } from 'react';
 import { Link } from 'react-router';
 import { setIngSearch, setNameSearch } from './Navbar';
 
+import drinkBaseWhite from '../../images/drinkBaseWhite.png';
+
 class Buttons extends Component {
   constructor(props) {
     super(props);
@@ -44,7 +46,7 @@ class Buttons extends Component {
       <div id="welcome">
         <img
           id="bigLogo"
-          src={require('../../images/drinkBaseWhite.png')}
+          src={drinkBaseWhite}
           alt="drinkBase"
           height="125"
         />

@@ -6,22 +6,30 @@ import Namesearch from './Namesearch';
 import { ipAddress } from '../ipAddress';
 
 const allDrinksURL = ipAddress.concat('allDrinks/');
-const smallLogo = require('../images/smallLogo.png');
+import smallLogo from '../images/smallLogo.png';
 
 export function setIngSearch() {
   // styles ingredient search button when active
-  let element1 = document.getElementById('ingButton');
-  element1.style.borderBottom = '3px solid var(--main-accent-color)';
-  let element2 = document.getElementById('nameButton');
-  element2.style.borderBottom = 'none';
+  const element1 = document.getElementById('ingButton');
+  if (element1) {
+    element1.style.borderBottom = '3px solid var(--main-accent-color)';
+  }
+  const element2 = document.getElementById('nameButton');
+  if (element2) {
+    element2.style.borderBottom = 'none';
+  }
 }
 
 export function setNameSearch() {
   // styles name search button when active
-  let element1 = document.getElementById('nameButton');
-  element1.style.borderBottom = '3px solid var(--main-accent-color)';
-  let element2 = document.getElementById('ingButton');
-  element2.style.borderBottom = 'none';
+  const element1 = document.getElementById('nameButton');
+  if (element1) {
+    element1.style.borderBottom = '3px solid var(--main-accent-color)';
+  }
+  const element2 = document.getElementById('ingButton');
+  if (element2) {
+    element2.style.borderBottom = 'none';
+  }
 }
 
 class Navbar extends Component {
@@ -74,12 +82,12 @@ class Navbar extends Component {
           <>
             <nav className="navbar">
               <div id="smallLogoDiv">
-                  <img
-                    id="smallLogo"
-                    src={smallLogo}
-                    alt="drinkBase small logo"
-                    height="30"
-                  />
+                <img
+                  id="smallLogo"
+                  src={smallLogo}
+                  alt="drinkBase small logo"
+                  height="30"
+                />
               </div>
               <button
                 title="query the database by individual ingredients"
@@ -111,10 +119,8 @@ class Navbar extends Component {
                 path="/ingredientsearch"
                 element={
                   <Ingredientsearch
-                    viz={this.state.viz}
                     allDrinks={this.state.allDrinks}
                     drinkList={this.state.drinkList}
-                    vizReady={this.state.vizReady}
                   />
                 }
               />
@@ -122,10 +128,8 @@ class Navbar extends Component {
                 path="/namesearch"
                 element={
                   <Namesearch
-                    viz={this.state.viz}
                     allDrinks={this.state.allDrinks}
                     drinkList={this.state.drinkList}
-                    vizReady={this.state.vizReady}
                   />
                 }
               />

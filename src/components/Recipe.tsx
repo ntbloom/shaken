@@ -38,14 +38,14 @@ class Recipe extends Component {
   printRecipe() {
     const drink = this.props.drink;
     const recipeArray = [];
-    let recipe = drink.Recipe;
+    const recipe = drink.Recipe;
     const garnish = <p>{drink.Data.Garnish} garnish</p>;
     const build = <p id="build">{drink.Data.Build}</p>;
 
     for (let i = 0; i < recipe.length; i++) {
-      let amount = fractionize(recipe[i].Amount);
+      const amount = fractionize(recipe[i].Amount);
       let unit = recipe[i].Unit;
-      let ingredient = recipe[i].Ingredient;
+      const ingredient = recipe[i].Ingredient;
       if (amount > 1 && unit === 'dash') {
         unit = 'dashes';
       }

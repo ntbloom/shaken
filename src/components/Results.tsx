@@ -55,7 +55,7 @@ class Results extends Component {
 
   apiCall() {
     // calls Flask API
-    let api = this.props.url;
+    const api = this.props.url;
     const url = api.concat(this.props.query);
     fetch(url).then((response) => {
       response
