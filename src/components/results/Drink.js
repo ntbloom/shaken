@@ -124,6 +124,7 @@ class Drink extends Component {
     const drinkType = {
       color: this.getColor(),
     };
+
     return (
       <div
         className="drinkWrapper"
@@ -131,7 +132,8 @@ class Drink extends Component {
         onMouseLeave={this.accentViz}
       >
         <div className="glass">
-          {/*<svg width="30" height="30" xmlns="http://www.w3.org/2000/svg">
+          {/* TODO: we can come back with SVGs of glass types later, matched on color */}
+          {/* <svg width="30" height="30" xmlns="http://www.w3.org/2000/svg">
             <rect
               id="glass"
               width="70%"
@@ -150,15 +152,8 @@ class Drink extends Component {
               {Math.ceil(allDrinks[name].Data.Volume).toString()} ounces |
               {'    '}
               <span style={drinkType}>{this.displayStyle()}</span> |{'    '}
-              {Math.round(allDrinks[name].Data.ABV * 100, 1)}% abv
-              {/* 
-                  |{"  "}
-                  {Math.round(
-                    allDrinks[drink].Data.Sweetness * 100,
-                    1,
-                  ).toString()}
-                  % sweet*
-                  */}
+              {Math.round(allDrinks[name].Data.ABV * 100, 1)}% abv |{'  '}
+              {Math.round(allDrinks[name].Data.Sweetness * 100, 1)}% sweet
             </p>
           </div>
         </div>
