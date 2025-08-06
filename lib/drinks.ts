@@ -29,4 +29,7 @@ const Manhattan: Cocktail = {
 };
 
 export const allCocktails = new Array<Cocktail>(Manhattan, Negroni);
-export const cocktailMap : Map<string, Cocktail> = new Map( [["Manhattan", Manhattan], ["Negroni", Negroni ]]);
+export const cocktailMap: Map<string, Cocktail> = new Map([
+  ['Manhattan', Manhattan],
+  ['Negroni', Negroni],
+]);
