@@ -4,11 +4,11 @@ import { BrowserRouter, Link, Routes, Route } from 'react-router';
 import Ingredientsearch from './Ingredientsearch';
 import Namesearch from './Namesearch';
 import { ipAddress } from '../ipAddress';
-
-const allDrinksURL = ipAddress.concat('allDrinks/');
 import smallLogo from '../images/smallLogo.png';
 
-export function setIngSearch() {
+const allDrinksURL = ipAddress.concat('allDrinks/');
+
+function setIngSearch() {
   // styles ingredient search button when active
   const element1 = document.getElementById('ingButton');
   if (element1) {
@@ -20,7 +20,7 @@ export function setIngSearch() {
   }
 }
 
-export function setNameSearch() {
+function setNameSearch() {
   // styles name search button when active
   const element1 = document.getElementById('nameButton');
   if (element1) {

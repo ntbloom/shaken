@@ -1,0 +1,24 @@
+name: npm build and test
+run-name: ${{ github.actor }} running CI for stirred
+on: [push]
+jobs:
+  build-and-test:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Install deps
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+          \. "$HOME/.nvm/nvm.sh"
+          nvm install 24
+          npm install
+
+      - name: Lint
+        run: |
+          npm run check-format
+          npm run lint
+
+      - name: test
+        run: npm run test
