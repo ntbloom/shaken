@@ -1,5 +1,5 @@
 import { Cocktail } from './drinkParams';
-import { allCocktails, cocktailMap } from './drinks';
+import { allCocktails, cocktailMap } from './indices';
 
 // brute force search through drinks
 function naiveSearch(ingredients: Set<string>): Set<Cocktail> {

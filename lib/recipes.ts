@@ -1,6 +1,6 @@
 import { Cocktail, Style } from './drinkParams';
 
-const Negroni: Cocktail = {
+export const Negroni: Cocktail = {
   name: 'Negroni',
   volume: 4,
   style: Style.built,
@@ -14,7 +14,7 @@ const Negroni: Cocktail = {
   build: 'This is how you build it. Make sure glass/garnish is included',
 };
 
-const Manhattan: Cocktail = {
+export const Manhattan: Cocktail = {
   name: 'Manhattan',
   volume: 4,
   style: Style.built,
@@ -27,9 +27,3 @@ const Manhattan: Cocktail = {
   ],
   build: 'This is how you build it. Make sure glass/garnish is included',
 };
-
-export const allCocktails = new Array<Cocktail>(Manhattan, Negroni);
-export const cocktailMap: Map<string, Cocktail> = new Map([
-  ['Manhattan', Manhattan],
-  ['Negroni', Negroni],
-]);

@@ -1,4 +1,4 @@
-import { includeIngredients } from '../lib/search';
+import { includeIngredients } from '../lib/searchUtils';
 
 test('basic match a Negroni', () => {
   const params = new Set<string>();

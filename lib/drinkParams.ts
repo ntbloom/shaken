@@ -45,3 +45,6 @@ export interface Cocktail {
   ingredients: Array<Ingredient>;
   build: string;
 }
+
+export type Cocktails = Array<Cocktail>;
+export type CocktailMap = Map<string, Cocktail>;

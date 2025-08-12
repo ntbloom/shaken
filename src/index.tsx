@@ -1,10 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
+import Wrapper from './components/Wrapper';
+import './index.css';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-);
+const rootElem = document.getElementById('root');
+if (rootElem === null) {
+  console.error("Can't find element `root`");
+} else {
+  const root = ReactDOM.createRoot(rootElem);
+  root.render(
+    <React.StrictMode>
+      <Wrapper />
+    </React.StrictMode>,
+  );
+}
