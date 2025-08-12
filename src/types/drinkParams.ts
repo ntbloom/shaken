@@ -1,14 +1,13 @@
-export enum Style {
-  built,
-  stirred,
-  shaken,
-  bubbly,
-  fizz,
-  swizzle,
-  default,
-  hot,
-  double_shake,
-}
+export type Style =
+  | 'built'
+  | 'stirred'
+  | 'shaken'
+  | 'bubbly'
+  | 'fizz'
+  | 'swizzle'
+  | 'default'
+  | 'hot'
+  | 'double shake';
 
 export enum Glass {
   coupe,
@@ -46,5 +45,10 @@ export interface Cocktail {
   build: string;
 }
 
-export type Cocktails = Array<Cocktail>;
-export type CocktailMap = Map<string, Cocktail>;
+export interface Cocktails {
+  cocktails: Array<Cocktail>;
+}
+
+export interface CocktailMap {
+  lookup: Map<string, Cocktail>;
+}

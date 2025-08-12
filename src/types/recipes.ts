@@ -1,9 +1,9 @@
-import { Cocktail, Style } from './drinkParams';
+import { Cocktail } from './drinkParams';
 
 export const Negroni: Cocktail = {
   name: 'Negroni',
   volume: 4,
-  style: Style.built,
+  style: 'built',
   abv: 0.15,
   sweetness: 40,
   ingredients: [
@@ -17,7 +17,7 @@ export const Negroni: Cocktail = {
 export const Manhattan: Cocktail = {
   name: 'Manhattan',
   volume: 4,
-  style: Style.built,
+  style: 'built',
   abv: 0.27,
   sweetness: 12,
   ingredients: [

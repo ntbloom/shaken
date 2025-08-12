@@ -1,4 +1,9 @@
+import { allCocktails } from '../types/indices';
+import { SearchResults } from './Results';
+
 function Searchbar() {
+  const resultsProps = allCocktails;
+
   return (
     <div className="indexSearch">
       <div className="searchForms">
@@ -22,7 +27,7 @@ function Searchbar() {
         </form>
         <input className="searchbuttons" type="submit" value="find drinks" />
       </div>
-      {/* this is where results will go */}
+      <SearchResults results={resultsProps} />
     </div>
   );
 }
