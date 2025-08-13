@@ -11,7 +11,7 @@ export const Negroni: Cocktail = {
     { name: 'gin', amount: { unit: 'oz', qty: 1 } },
     { name: 'sweet vermouth', amount: { unit: 'oz', qty: 1 } },
   ],
-  build: 'This is how you build it. Make sure glass/garnish is included',
+  garnish: 'lemon twist',
 };
 
 export const Manhattan: Cocktail = {
@@ -25,5 +25,5 @@ export const Manhattan: Cocktail = {
     { name: 'rye whiskey', amount: { unit: 'oz', qty: 2 } },
     { name: 'sweet vermouth', amount: { unit: 'oz', qty: 0.75 } },
   ],
-  build: 'This is how you build it. Make sure glass/garnish is included',
+  garnish: 'brandied cherry',
 };

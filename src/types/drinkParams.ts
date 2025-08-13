@@ -42,7 +42,7 @@ export interface Cocktail {
   abv: number;
   sweetness: number;
   ingredients: Array<Ingredient>;
-  build: string;
+  garnish: string | null;
 }
 
 export interface Cocktails {
