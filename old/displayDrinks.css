@@ -1,9 +1,9 @@
-/* old; may want to reuse some of this? */ */
-.drinkWrapper {
+/* old; may want to reuse some of this? */
+*/ .drinkWrapper {
   display: grid;
   grid-template-columns: 6% 94%;
   grid-template-rows: auto;
   color: var(--main-accent-color);
   font-weight: bold;
   padding-bottom: 2em;
-} 
+}
