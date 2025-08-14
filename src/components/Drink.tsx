@@ -37,8 +37,7 @@ export function Drink(props: Cocktail) {
         <p>
           {Math.ceil(props.volume).toString()} ounces |{'    '}
           <span style={getColor(props)}>{displayStyle(props)}</span> |{'    '}
-          {Math.round(props.abv * 100)}% abv |{'  '}
-          {Math.round(props.sweetness)}% sweet
+          {Math.round(props.abv * 100)}% abv
         </p>
       </div>
       <div id="drinkIngredients">{displayIngredients(props)}</div>

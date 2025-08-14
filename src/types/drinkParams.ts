@@ -9,22 +9,6 @@ export type Style =
   | 'hot'
   | 'double shake';
 
-export enum Glass {
-  coupe,
-  old_fashioned,
-  collins,
-  mug,
-  flute,
-  double_rocks,
-  highball,
-  margarita,
-  julep,
-  rocks,
-  mule,
-  sling,
-  hurricane,
-}
-
 export interface Amount {
   unit: string;
   qty: number;
@@ -40,7 +24,6 @@ export interface Cocktail {
   volume: number;
   style: Style;
   abv: number;
-  sweetness: number;
   ingredients: Array<Ingredient>;
   garnish: string | null;
 }

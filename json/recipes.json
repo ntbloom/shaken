@@ -1,0 +1,1495 @@
+{
+  "100YearOldCigar": {
+    "garnish": "none",
+    "ingredients": [
+      { "name": "aged rum", "qty": 1.75, "unit": "oz" },
+      { "name": "Cynar", "qty": 0.5, "unit": "oz" },
+      { "name": "Benedictine", "qty": 0.5, "unit": "oz" },
+      { "name": "Islay Scotch whisky", "qty": 0.25, "unit": "oz" },
+      { "name": "Angostura bitters", "qty": 1, "unit": "dash" },
+      { "name": "absinthe", "qty": 1, "unit": "rinse" }
+    ],
+    "name": "100 Year-Old Cigar",
+    "style": "stirred"
+  },
+  "20thCentury": {
+    "garnish": "lemon twist",
+    "ingredients": [
+      { "name": "Cocchi Americano", "qty": 0.75, "unit": "oz" },
+      { "name": "creme de cacao", "qty": 0.75, "unit": "oz" },
+      { "name": "gin", "qty": 1.5, "unit": "oz" },
+      { "name": "lemon juice", "qty": 0.75, "unit": "oz" }
+    ],
+    "name": "20th Century",
+    "style": "shaken"
+  },
+  "AbbeyCocktail": {
+    "garnish": "brandied cherry",
+    "ingredients": [
+      { "name": "orange bitters", "qty": 2, "unit": "dash" },
+      { "name": "gin", "qty": 1.5, "unit": "oz" },
+      { "name": "Lillet Blanc", "qty": 0.75, "unit": "oz" },
+      { "name": "orange juice", "qty": 0.75, "unit": "oz" }
+    ],
+    "name": "Abbey Cocktail",
+    "style": "shaken"
+  },
+  "AgaveOldFashioned": {
+    "garnish": "lemon twist",
+    "ingredients": [
+      { "name": "Angostura bitters", "qty": 2, "unit": "dash" },
+      { "name": "tequila reposado", "qty": 2, "unit": "oz" },
+      { "name": "agave nectar", "qty": 1, "unit": "tsp" }
+    ],
+    "name": "Agave Old Fashioned",
+    "style": "built"
+  },
+  "Airmail": {
+    "garnish": "lime wedge",
+    "ingredients": [
+      { "name": "aged rum", "qty": 1, "unit": "oz" },
+      { "name": "honey simple syrup", "qty": 0.5, "unit": "oz" },
+      { "name": "lime juice", "qty": 0.5, "unit": "oz" },
+      { "name": "Champagne or sparkling wine", "qty": 1, "unit": "oz" }
+    ],
+    "name": "Airmail",
+    "style": "bubbly"
+  },
+  "Alabazam": {
+    "garnish": "lemon twist",
+    "ingredients": [
+      { "name": "Angostura bitters", "qty": 0.25, "unit": "oz" },
+      { "name": "cognac", "qty": 1.5, "unit": "oz" },
+      { "name": "Cointreau", "qty": 0.5, "unit": "oz" },
+      { "name": "lemon juice", "qty": 0.25, "unit": "oz" },
+      { "name": "simple syrup", "qty": 0.25, "unit": "oz" }
+    ],
+    "name": "Alabazam",
+    "style": "shaken"
+  },
+  "AlaskaCocktail": {
+    "garnish": "lemon twist",
+    "ingredients": [
+      { "name": "orange bitters", "qty": 1, "unit": "dash" },
+      { "name": "gin", "qty": 1.5, "unit": "oz" },
+      { "name": "yellow Chartreuse", "qty": 0.75, "unit": "oz" }
+    ],
+    "name": "Alaska Cocktail",
+    "style": "stirred"
+  },
+  "Americano": {
+    "garnish": "lemon twist",
+    "ingredients": [
+      { "name": "Campari", "qty": 1, "unit": "oz" },
+      { "name": "sweet vermouth", "qty": 1, "unit": "oz" },
+      { "name": "soda water", "qty": 2, "unit": "oz" }
+    ],
+    "name": "Americano",
+    "style": "built"
+  },
+  "AmericanoInBenevento": {
+    "garnish": "lemon twist",
+    "ingredients": [
+      { "name": "Campari", "qty": 1.5, "unit": "oz" },
+      { "name": "Strega", "qty": 0.5, "unit": "oz" },
+      { "name": "ginger ale", "qty": 2, "unit": "oz" }
+    ],
+    "name": "Americano in Benevento",
+    "style": "built"
+  },
+  "AngosturaFizz": {
+    "garnish": "lemon slice",
+    "ingredients": [
+      { "name": "egg white", "qty": 1, "unit": "each" },
+      { "name": "Angostura bitters", "qty": 1, "unit": "oz" },
+      { "name": "grenadine", "qty": 0.25, "unit": "oz" },
+      { "name": "heavy cream", "qty": 0.5, "unit": "oz" },
+      { "name": "lime juice", "qty": 1, "unit": "oz" },
+      { "name": "simple syrup", "qty": 0.25, "unit": "oz" },
+      { "name": "soda water", "qty": 1, "unit": "oz" }
+    ],
+    "name": "Angostura Fizz",
+    "style": "fizz"
+  },
+  "AppleToddy": {
+    "garnish": "apple slice and cinnamon stick",
+    "ingredients": [
+      { "name": "Angostura bitters", "qty": 2, "unit": "dash" },
+      { "name": "applejack", "qty": 2, "unit": "oz" },
+      { "name": "cinnamon tea", "qty": 3, "unit": "oz" },
+      { "name": "maple syrup", "qty": 1, "unit": "tsp" }
+    ],
+    "name": "Apple Toddy",
+    "style": "hot"
+  },
+  "ApplejackOldFashioned": {
+    "garnish": "orange twist",
+    "ingredients": [
+      { "name": "Angostura bitters", "qty": 2, "unit": "dash" },
+      { "name": "applejack", "qty": 2, "unit": "oz" },
+      { "name": "maple syrup", "qty": 1, "unit": "tsp" }
+    ],
+    "name": "Applejack Old Fashioned",
+    "style": "built"
+  },
+  "BakerStreetSwizzle": {
+    "garnish": "mint sprig",
+    "ingredients": [
+      { "name": "absinthe", "qty": 1.5, "unit": "oz" },
+      { "name": "falernum", "qty": 0.75, "unit": "oz" },
+      { "name": "Angostura bitters", "qty": 0.5, "unit": "oz" },
+      { "name": "lemon juice", "qty": 0.5, "unit": "oz" },
+      { "name": "muddled mint leaves", "qty": 7, "unit": "each" }
+    ],
+    "name": "Baker Street Swizzle",
+    "style": "swizzle"
+  },
+  "BeesKnees": {
+    "garnish": "brandied cherry",
+    "ingredients": [
+      { "name": "lavender bitters", "qty": 1, "unit": "dash" },
+      { "name": "gin", "qty": 2, "unit": "oz" },
+      { "name": "honey simple syrup", "qty": 0.75, "unit": "oz" },
+      { "name": "lemon juice", "qty": 0.75, "unit": "oz" }
+    ],
+    "name": "Bee's Knees",
+    "style": "shaken"
+  },
+  "Bijou": {
+    "garnish": "brandied cherry",
+    "ingredients": [
+      { "name": "orange bitters", "qty": 1, "unit": "dash" },
+      { "name": "gin", "qty": 1, "unit": "oz" },
+      { "name": "green Chartreuse", "qty": 1, "unit": "oz" },
+      { "name": "sweet vermouth", "qty": 1, "unit": "oz" }
+    ],
+    "name": "Bijou",
+    "style": "stirred"
+  },
+  "BitterFrench": {
+    "garnish": "lemon twist",
+    "ingredients": [
+      { "name": "Campari", "qty": 0.25, "unit": "oz" },
+      { "name": "Champagne or sparkling wine", "qty": 2.5, "unit": "oz" },
+      { "name": "gin", "qty": 1, "unit": "oz" },
+      { "name": "lemon juice", "qty": 0.5, "unit": "oz" },
+      { "name": "simple syrup", "qty": 0.5, "unit": "oz" }
+    ],
+    "name": "Bitter French",
+    "style": "bubbly"
+  },
+  "BitterGuiseppe": {
+    "garnish": "lemon twist",
+    "ingredients": [
+      { "name": "orange bitters", "qty": 6, "unit": "dash" },
+      { "name": "Cynar", "qty": 2, "unit": "oz" },
+      { "name": "lemon juice", "qty": 0.25, "unit": "oz" },
+      { "name": "sweet vermouth", "qty": 1, "unit": "oz" }
+    ],
+    "name": "Bitter Guiseppe",
+    "style": "stirred"
+  },
+  "BlackFeather": {
+    "garnish": "lemon twist",
+    "ingredients": [
+      { "name": "Angostura bitters", "qty": 1, "unit": "dash" },
+      { "name": "cognac", "qty": 2, "unit": "oz" },
+      { "name": "Cointreau", "qty": 0.5, "unit": "oz" },
+      { "name": "dry vermouth", "qty": 1, "unit": "oz" }
+    ],
+    "name": "Black Feather",
+    "style": "stirred"
+  },
+  "Blackthorn": {
+    "garnish": "orange twist",
+    "ingredients": [
+      { "name": "orange bitters", "qty": 2, "unit": "dash" },
+      { "name": "gin", "qty": 1.5, "unit": "oz" },
+      { "name": "sloe gin", "qty": 0.75, "unit": "oz" },
+      { "name": "sweet vermouth", "qty": 0.75, "unit": "oz" }
+    ],
+    "name": "Blackthorn",
+    "style": "stirred"
+  },
+  "BlondeRedhead": {
+    "garnish": "orange twist",
+    "ingredients": [
+      { "name": "aperol", "qty": 3, "unit": "oz" },
+      { "name": "club soda", "qty": 3, "unit": "oz" },
+      { "name": "grapefruit juice", "qty": 1, "unit": "oz" },
+      { "name": "lemon juice", "qty": 0.25, "unit": "oz" }
+    ],
+    "name": "Blonde Redhead",
+    "style": "built"
+  },
+  "BloodAndSand": {
+    "garnish": "brandied cherry",
+    "ingredients": [
+      { "name": "Cherry Heering", "qty": 0.5, "unit": "oz" },
+      { "name": "orange juice", "qty": 0.75, "unit": "oz" },
+      { "name": "scotch whisky", "qty": 1, "unit": "oz" }
+    ],
+    "name": "Blood & Sand",
+    "style": "shaken"
+  },
+  "BobbyBurns": {
+    "garnish": "lemon twist",
+    "ingredients": [
+      { "name": "Angostura bitters", "qty": 1, "unit": "dash" },
+      { "name": "Benedictine", "qty": 0.25, "unit": "oz" },
+      { "name": "blended scotch whiskey", "qty": 2, "unit": "oz" },
+      { "name": "Drambuie", "qty": 0.25, "unit": "oz" },
+      { "name": "sweet vermouth", "qty": 0.75, "unit": "oz" }
+    ],
+    "name": "Bobby Burns",
+    "style": "stirred"
+  },
+  "Boulevardier": {
+    "garnish": "lemon twist",
+    "ingredients": [
+      { "name": "Campari", "qty": 1, "unit": "oz" },
+      { "name": "rye whiskey", "qty": 1.5, "unit": "oz" },
+      { "name": "sweet vermouth", "qty": 1, "unit": "oz" }
+    ],
+    "name": "Boulevardier",
+    "style": "stirred"
+  },
+  "BourbonToddy": {
+    "garnish": "lemon twist",
+    "ingredients": [
+      { "name": "Angostura bitters", "qty": 2, "unit": "dash" },
+      { "name": "boiling water", "qty": 3, "unit": "oz" },
+      { "name": "bourbon whiskey", "qty": 2, "unit": "oz" },
+      { "name": "simple syrup", "qty": 1, "unit": "tsp" }
+    ],
+    "name": "Bourbon Toddy",
+    "style": "hot"
+  },
+  "Brandy75": {
+    "garnish": "lemon twist",
+    "ingredients": [
+      { "name": "Champagne or sparkling wine", "qty": 2.5, "unit": "oz" },
+      { "name": "cognac", "qty": 1, "unit": "oz" },
+      { "name": "lemon juice", "qty": 0.5, "unit": "oz" },
+      { "name": "simple syrup", "qty": 0.5, "unit": "oz" }
+    ],
+    "name": "Brandy 75",
+    "style": "bubbly"
+  },
+  "BrandyAlexander": {
+    "garnish": "grated nutmeg",
+    "ingredients": [
+      { "name": "cognac", "qty": 2, "unit": "oz" },
+      { "name": "heavy cream", "qty": 1, "unit": "oz" },
+      { "name": "simple syrup", "qty": 0.25, "unit": "oz" }
+    ],
+    "name": "Brandy Alexander",
+    "style": "shaken"
+  },
+  "BrandyCrusta": {
+    "garnish": "lemon twist and sugar rim",
+    "ingredients": [
+      { "name": "cognac", "qty": 2, "unit": "oz" },
+      { "name": "lemon juice", "qty": 0.5, "unit": "oz" },
+      { "name": "Luxardo Maraschino", "qty": 0.25, "unit": "oz" },
+      { "name": "orange curacao", "qty": 0.5, "unit": "oz" }
+    ],
+    "name": "Brandy Crusta",
+    "style": "shaken"
+  },
+  "Brooklyn": {
+    "garnish": "brandied cherry",
+    "ingredients": [
+      { "name": "Angostura bitters", "qty": 1, "unit": "dash" },
+      { "name": "amaro", "qty": 0.5, "unit": "oz" },
+      { "name": "dry vermouth", "qty": 0.5, "unit": "oz" },
+      { "name": "Luxardo Maraschino", "qty": 0.25, "unit": "oz" },
+      { "name": "rye whiskey", "qty": 2, "unit": "oz" }
+    ],
+    "name": "Brooklyn",
+    "style": "stirred"
+  },
+  "BrownDerby": {
+    "garnish": "grapefruit twist",
+    "ingredients": [
+      { "name": "bourbon whiskey", "qty": 2, "unit": "oz" },
+      { "name": "grapefruit juice", "qty": 1, "unit": "oz" },
+      { "name": "honey simple syrup", "qty": 0.5, "unit": "oz" }
+    ],
+    "name": "Brown Derby",
+    "style": "shaken"
+  },
+  "Caipirinha": {
+    "garnish": "lime wedge",
+    "ingredients": [
+      { "name": "sugar cube", "qty": 1, "unit": "each" },
+      { "name": "muddled lime wedges", "qty": 6, "unit": "each" },
+      { "name": "cachaca", "qty": 2, "unit": "oz" },
+      { "name": "simple syrup", "qty": 0.75, "unit": "oz" }
+    ],
+    "name": "Caipirinha",
+    "style": "shaken"
+  },
+  "CampariOrange": {
+    "garnish": "orange slice",
+    "ingredients": [
+      { "name": "Campari", "qty": 2, "unit": "oz" },
+      { "name": "orange juice", "qty": 6, "unit": "oz" }
+    ],
+    "name": "Campari Orange",
+    "style": "built"
+  },
+  "ChampagneCocktail": {
+    "garnish": "lemon twist",
+    "ingredients": [
+      { "name": "sugar cube", "qty": 1, "unit": "each" },
+      { "name": "Angostura bitters", "qty": 5, "unit": "dash" },
+      { "name": "Champagne or sparkling wine", "qty": 5, "unit": "oz" }
+    ],
+    "name": "Champagne Cocktail",
+    "style": "bubbly"
+  },
+  "ChampsElysees": {
+    "garnish": "lemon twist",
+    "ingredients": [
+      { "name": "Angostura bitters", "qty": 2, "unit": "dash" },
+      { "name": "cognac", "qty": 2, "unit": "oz" },
+      { "name": "green Chartreuse", "qty": 0.5, "unit": "oz" },
+      { "name": "lemon juice", "qty": 0.75, "unit": "oz" },
+      { "name": "simple syrup", "qty": 0.5, "unit": "oz" }
+    ],
+    "name": "Champs-Elysees",
+    "style": "shaken"
+  },
+  "ChartreuseSwizzle": {
+    "garnish": "nutmeg & mint sprig",
+    "ingredients": [
+      { "name": "green Chartreuse", "qty": 1.5, "unit": "oz" },
+      { "name": "pineapple juice", "qty": 1, "unit": "oz" },
+      { "name": "lime juice", "qty": 0.75, "unit": "oz" },
+      { "name": "falernum", "qty": 0.5, "unit": "oz" }
+    ],
+    "name": "Chartreuse Swizzle",
+    "style": "swizzle"
+  },
+  "CornNOil": {
+    "garnish": "lime wedge",
+    "ingredients": [
+      { "name": "Angostura bitters", "qty": 3, "unit": "dash" },
+      { "name": "blackstrap rum", "qty": 2, "unit": "oz" },
+      { "name": "falernum", "qty": 0.5, "unit": "oz" },
+      { "name": "lime juice", "qty": 0.25, "unit": "oz" }
+    ],
+    "name": "Corn 'n' Oil",
+    "style": "built"
+  },
+  "CorpseReviver#0824": {
+    "garnish": "none",
+    "ingredients": [
+      { "name": "Strega", "qty": 1.5, "unit": "oz" },
+      { "name": "Cocchi Americano", "qty": 1, "unit": "oz" },
+      { "name": "lemon juice", "qty": 1, "unit": "oz" },
+      { "name": "Angostura bitters", "qty": 3, "unit": "dash" },
+      { "name": "egg white", "qty": 0.5, "unit": "oz" },
+      { "name": "absinthe", "qty": 1, "unit": "rinse" }
+    ],
+    "name": "Corpse Reviver #0824",
+    "style": "double shake"
+  },
+  "CorpseReviver#2": {
+    "garnish": "orange twist",
+    "ingredients": [
+      { "name": "absinthe", "qty": 3, "unit": "dash" },
+      { "name": "Cointreau", "qty": 0.75, "unit": "oz" },
+      { "name": "gin", "qty": 0.75, "unit": "oz" },
+      { "name": "lemon juice", "qty": 0.75, "unit": "oz" },
+      { "name": "Lillet Blanc", "qty": 0.75, "unit": "oz" }
+    ],
+    "name": "Corpse Reviver #2",
+    "style": "shaken"
+  },
+  "Cosmopolitan": {
+    "garnish": "orange twist",
+    "ingredients": [
+      { "name": "Cointreau", "qty": 0.75, "unit": "oz" },
+      { "name": "cranberry juice", "qty": 0.75, "unit": "oz" },
+      { "name": "lime juice", "qty": 0.5, "unit": "oz" },
+      { "name": "vodka", "qty": 1.5, "unit": "oz" }
+    ],
+    "name": "Cosmopolitan",
+    "style": "shaken"
+  },
+  "CricketBall": {
+    "garnish": "lemon twist",
+    "ingredients": [
+      { "name": "sugar cube", "qty": 1, "unit": "each" },
+      { "name": "Peychaud's bitters", "qty": 3, "unit": "dash" },
+      { "name": "rhubarb bitters", "qty": 3, "unit": "dash" },
+      { "name": "Champagne or sparkling wine", "qty": 3, "unit": "oz" },
+      { "name": "Lillet Rouge", "qty": 1, "unit": "oz" }
+    ],
+    "name": "Cricket Ball",
+    "style": "bubbly"
+  },
+  "CubaKola": {
+    "garnish": "pineapple wedge & cherry",
+    "ingredients": [
+      { "name": "lime juice", "qty": 2, "unit": "oz" },
+      { "name": "rum", "qty": 1.5, "unit": "oz" },
+      { "name": "orange juice", "qty": 1, "unit": "oz" },
+      { "name": "dark rum", "qty": 1, "unit": "oz" },
+      { "name": "honey simple syrup", "qty": 0.75, "unit": "oz" },
+      { "name": "Angostura bitters", "qty": 1, "unit": "dash" },
+      { "name": "absinthe", "qty": 6, "unit": "dash" }
+    ],
+    "name": "Cuba Kola",
+    "style": "shaken"
+  },
+  "Daiquiri": {
+    "garnish": "lime wedge",
+    "ingredients": [
+      { "name": "lime juice", "qty": 0.75, "unit": "oz" },
+      { "name": "simple syrup", "qty": 0.75, "unit": "oz" },
+      { "name": "white rum", "qty": 2, "unit": "oz" }
+    ],
+    "name": "Daiquiri",
+    "style": "shaken"
+  },
+  "DarkAndStormy": {
+    "garnish": "lime wheel",
+    "ingredients": [
+      { "name": "dark rum", "qty": 2, "unit": "oz" },
+      { "name": "ginger beer", "qty": 4, "unit": "oz" },
+      { "name": "lime juice", "qty": 0.75, "unit": "oz" }
+    ],
+    "name": "Dark & Stormy",
+    "style": "built"
+  },
+  "DeLaLouisiane": {
+    "garnish": "brandied cherry",
+    "ingredients": [
+      { "name": "absinthe", "qty": 3, "unit": "dash" },
+      { "name": "Angostura bitters", "qty": 3, "unit": "dash" },
+      { "name": "Peychaud's bitters", "qty": 3, "unit": "dash" },
+      { "name": "Benedictine", "qty": 0.5, "unit": "oz" },
+      { "name": "rye whiskey", "qty": 2, "unit": "oz" },
+      { "name": "sweet vermouth", "qty": 0.5, "unit": "oz" }
+    ],
+    "name": "De La Louisiane",
+    "style": "stirred"
+  },
+  "Diamondback": {
+    "garnish": "orange twist",
+    "ingredients": [
+      { "name": "apple brandy", "qty": 0.5, "unit": "oz" },
+      { "name": "rye whiskey", "qty": 2, "unit": "oz" },
+      { "name": "yellow Chartreuse", "qty": 0.5, "unit": "oz" }
+    ],
+    "name": "Diamondback",
+    "style": "stirred"
+  },
+  "EsplanadeSwizzle": {
+    "garnish": "mint sprig",
+    "ingredients": [
+      { "name": "mezcal", "qty": 1, "unit": "oz" },
+      { "name": "sherry", "qty": 1, "unit": "oz" },
+      { "name": "lime juice", "qty": 0.75, "unit": "oz" },
+      { "name": "falernum", "qty": 0.5, "unit": "oz" },
+      { "name": "ginger syrup", "qty": 0.5, "unit": "oz" }
+    ],
+    "name": "Esplanade Swizzle",
+    "style": "swizzle"
+  },
+  "FancyFree": {
+    "garnish": "orange twist",
+    "ingredients": [
+      { "name": "Angostura bitters", "qty": 1, "unit": "dash" },
+      { "name": "orange bitters", "qty": 1, "unit": "dash" },
+      { "name": "Luxardo Maraschino", "qty": 0.5, "unit": "oz" },
+      { "name": "rye whiskey", "qty": 2, "unit": "oz" }
+    ],
+    "name": "Fancy-Free",
+    "style": "stirred"
+  },
+  "Fitzgerald": {
+    "garnish": "lemon wedge",
+    "ingredients": [
+      { "name": "Angostura bitters", "qty": 2, "unit": "dash" },
+      { "name": "gin", "qty": 2, "unit": "oz" },
+      { "name": "lemon juice", "qty": 0.75, "unit": "oz" },
+      { "name": "simple syrup", "qty": 1, "unit": "oz" }
+    ],
+    "name": "Fitzgerald",
+    "style": "shaken"
+  },
+  "French75": {
+    "garnish": "lemon twist",
+    "ingredients": [
+      { "name": "Champagne or sparkling wine", "qty": 2.5, "unit": "oz" },
+      { "name": "gin", "qty": 1, "unit": "oz" },
+      { "name": "lemon juice", "qty": 0.5, "unit": "oz" },
+      { "name": "simple syrup", "qty": 0.5, "unit": "oz" }
+    ],
+    "name": "French 75",
+    "style": "bubbly"
+  },
+  "French95": {
+    "garnish": "lemon twist",
+    "ingredients": [
+      { "name": "bourbon whiskey", "qty": 2, "unit": "oz" },
+      { "name": "Champagne or sparkling wine", "qty": 2.5, "unit": "oz" },
+      { "name": "lemon juice", "qty": 0.75, "unit": "oz" },
+      { "name": "simple syrup", "qty": 0.5, "unit": "oz" }
+    ],
+    "name": "French 95",
+    "style": "built"
+  },
+  "GargoyleAndSpire": {
+    "garnish": "orange twist",
+    "ingredients": [
+      { "name": "orange bitters", "qty": 2, "unit": "dash" },
+      { "name": "Champagne or sparkling wine", "qty": 2, "unit": "oz" },
+      { "name": "gin", "qty": 1, "unit": "oz" },
+      { "name": "simple syrup", "qty": 0.25, "unit": "oz" },
+      { "name": "Strega", "qty": 0.75, "unit": "oz" }
+    ],
+    "name": "Gargoyle and Spire",
+    "style": "bubbly"
+  },
+  "Gimlet": {
+    "garnish": "lime wheel",
+    "ingredients": [
+      { "name": "gin", "qty": 2, "unit": "oz" },
+      { "name": "lime juice", "qty": 0.75, "unit": "oz" },
+      { "name": "simple syrup", "qty": 0.75, "unit": "oz" }
+    ],
+    "name": "Gimlet",
+    "style": "shaken"
+  },
+  "GinFizz": {
+    "garnish": "orange slice",
+    "ingredients": [
+      { "name": "egg white", "qty": 1, "unit": "each" },
+      { "name": "gin", "qty": 2, "unit": "oz" },
+      { "name": "lemon juice", "qty": 0.75, "unit": "oz" },
+      { "name": "simple syrup", "qty": 0.75, "unit": "oz" }
+    ],
+    "name": "Gin Fizz",
+    "style": "shaken"
+  },
+  "GinRickey": {
+    "garnish": "lime wedge",
+    "ingredients": [
+      { "name": "gin", "qty": 2, "unit": "oz" },
+      { "name": "lime juice", "qty": 1, "unit": "oz" },
+      { "name": "simple syrup", "qty": 0.5, "unit": "oz" }
+    ],
+    "name": "Gin Rickey",
+    "style": "shaken"
+  },
+  "GingerWitch": {
+    "garnish": "candied ginger and a mint sprig",
+    "ingredients": [
+      { "name": "Strega", "qty": 1, "unit": "oz" },
+      { "name": "Jameson", "qty": 1, "unit": "oz" },
+      { "name": "lemon juice", "qty": 1, "unit": "oz" },
+      { "name": "ginger syrup", "qty": 0.75, "unit": "oz" },
+      { "name": "ginger ale", "qty": 2, "unit": "oz" }
+    ],
+    "name": "Ginger Witch",
+    "style": "fizz"
+  },
+  "GoldRush": {
+    "garnish": "none",
+    "ingredients": [
+      { "name": "bourbon whiskey", "qty": 2, "unit": "oz" },
+      { "name": "honey simple syrup", "qty": 0.75, "unit": "oz" },
+      { "name": "lemon juice", "qty": 0.75, "unit": "oz" }
+    ],
+    "name": "Gold Rush",
+    "style": "shaken"
+  },
+  "GoslingsSwizzle": {
+    "garnish": "mint sprig & orange peel",
+    "ingredients": [
+      { "name": "aged rum", "qty": 1, "unit": "oz" },
+      { "name": "dark rum", "qty": 1, "unit": "oz" },
+      { "name": "orange juice", "qty": 1, "unit": "oz" },
+      { "name": "pineapple juice", "qty": 1, "unit": "oz" },
+      { "name": "falernum", "qty": 0.5, "unit": "oz" },
+      { "name": "Angostura bitters", "qty": 3, "unit": "dash" }
+    ],
+    "name": "Goslings Swizzle",
+    "style": "swizzle"
+  },
+  "Grasshopper": {
+    "garnish": "mint sprig",
+    "ingredients": [
+      { "name": "muddled mint leaves", "qty": 8, "unit": "each" },
+      { "name": "creme de menthe", "qty": 1, "unit": "oz" },
+      { "name": "heavy cream", "qty": 1, "unit": "oz" }
+    ],
+    "name": "Grasshopper",
+    "style": "built"
+  },
+  "HankyPanky": {
+    "garnish": "orange twist",
+    "ingredients": [
+      { "name": "Fernet Branca", "qty": 0.25, "unit": "oz" },
+      { "name": "gin", "qty": 2, "unit": "oz" },
+      { "name": "sweet vermouth", "qty": 1.5, "unit": "oz" }
+    ],
+    "name": "Hanky Panky",
+    "style": "stirred"
+  },
+  "HarvardCocktail": {
+    "garnish": "lemon twist",
+    "ingredients": [
+      { "name": "Angostura bitters", "qty": 3, "unit": "dash" },
+      { "name": "cognac", "qty": 1.5, "unit": "oz" },
+      { "name": "lemon juice", "qty": 0.25, "unit": "oz" },
+      { "name": "sweet vermouth", "qty": 0.75, "unit": "oz" },
+      { "name": "grenadine", "qty": 1, "unit": "tsp" }
+    ],
+    "name": "Harvard Cocktail",
+    "style": "shaken"
+  },
+  "HemingwayDaiquiri": {
+    "garnish": "lime wheel",
+    "ingredients": [
+      { "name": "grapefruit juice", "qty": 0.5, "unit": "oz" },
+      { "name": "lime juice", "qty": 0.75, "unit": "oz" },
+      { "name": "Luxardo Maraschino", "qty": 0.5, "unit": "oz" },
+      { "name": "white rum", "qty": 2, "unit": "oz" },
+      { "name": "salt", "qty": 1, "unit": "dash" }
+    ],
+    "name": "Hemingway Daiquiri",
+    "style": "shaken"
+  },
+  "Honeysuckle": {
+    "garnish": "lime wedge",
+    "ingredients": [
+      { "name": "honey simple syrup", "qty": 0.75, "unit": "oz" },
+      { "name": "lime juice", "qty": 0.75, "unit": "oz" },
+      { "name": "white rum", "qty": 2, "unit": "oz" }
+    ],
+    "name": "Honeysuckle",
+    "style": "shaken"
+  },
+  "HotToddy": {
+    "garnish": "lemon slice",
+    "ingredients": [
+      { "name": "Angostura bitters", "qty": 2, "unit": "dash" },
+      { "name": "boiling water", "qty": 3, "unit": "oz" },
+      { "name": "rye whiskey", "qty": 2, "unit": "oz" },
+      { "name": "simple syrup", "qty": 1, "unit": "tsp" }
+    ],
+    "name": "Hot Toddy",
+    "style": "hot"
+  },
+  "ImprovedWhiskeyCocktail": {
+    "garnish": "lemon twist",
+    "ingredients": [
+      { "name": "Angostura bitters", "qty": 2, "unit": "dash" },
+      { "name": "Luxardo Maraschino", "qty": 0.25, "unit": "oz" },
+      { "name": "rye whiskey", "qty": 2, "unit": "oz" },
+      { "name": "simple syrup", "qty": 0.25, "unit": "oz" },
+      { "name": "absinthe", "qty": 1, "unit": "rinse" }
+    ],
+    "name": "Improved Whiskey Cocktail",
+    "style": "stirred"
+  },
+  "ItalianDandy": {
+    "garnish": "orange twist",
+    "ingredients": [
+      { "name": "Strega", "qty": 1.5, "unit": "oz" },
+      { "name": "sweet vermouth", "qty": 1.5, "unit": "oz" },
+      { "name": "orange curacao", "qty": 2, "unit": "tsp" },
+      { "name": "Angostura bitters", "qty": 2, "unit": "dash" }
+    ],
+    "name": "Italian Dandy",
+    "style": "stirred"
+  },
+  "JapaneseCocktail": {
+    "garnish": "lemon twist",
+    "ingredients": [
+      { "name": "Angostura bitters", "qty": 3, "unit": "dash" },
+      { "name": "cognac", "qty": 2, "unit": "oz" },
+      { "name": "orgeat", "qty": 0.5, "unit": "oz" }
+    ],
+    "name": "Japanese Cocktail",
+    "style": "stirred"
+  },
+  "JerseyJulep": {
+    "garnish": "strawberry slice",
+    "ingredients": [
+      { "name": "muddled mint leaves", "qty": 10, "unit": "each" },
+      { "name": "apple brandy", "qty": 2, "unit": "oz" },
+      { "name": "maple syrup", "qty": 0.5, "unit": "oz" }
+    ],
+    "name": "Jersey Julep",
+    "style": "shaken"
+  },
+  "JungleBird": {
+    "garnish": "pineapple wedge",
+    "ingredients": [
+      { "name": "blackstrap rum", "qty": 1.5, "unit": "oz" },
+      { "name": "pineapple juice", "qty": 1.5, "unit": "oz" },
+      { "name": "Campari", "qty": 0.75, "unit": "oz" },
+      { "name": "lime juice", "qty": 0.5, "unit": "oz" },
+      { "name": "simple syrup", "qty": 0.5, "unit": "oz" }
+    ],
+    "name": "Jungle Bird",
+    "style": "shaken"
+  },
+  "LaRosa": {
+    "garnish": "lime wedge",
+    "ingredients": [
+      { "name": "muddled strawberry", "qty": 1, "unit": "each" },
+      { "name": "amaro", "qty": 1, "unit": "oz" },
+      { "name": "lemon juice", "qty": 0.75, "unit": "oz" },
+      { "name": "pink Champagne or sparkling wine", "qty": 1.5, "unit": "oz" },
+      { "name": "simple syrup", "qty": 0.5, "unit": "oz" },
+      { "name": "tequila blanco", "qty": 2, "unit": "oz" }
+    ],
+    "name": "La Rosa",
+    "style": "bubbly"
+  },
+  "LaRosita": {
+    "garnish": "orange twist",
+    "ingredients": [
+      { "name": "Angostura bitters", "qty": 2, "unit": "dash" },
+      { "name": "Campari", "qty": 0.5, "unit": "oz" },
+      { "name": "dry vermouth", "qty": 0.5, "unit": "oz" },
+      { "name": "reposado tequila", "qty": 2, "unit": "oz" },
+      { "name": "sweet vermouth", "qty": 0.5, "unit": "oz" }
+    ],
+    "name": "La Rosita",
+    "style": "stirred"
+  },
+  "LandingGearFizz": {
+    "garnish": "lime wheel & mint sprig",
+    "ingredients": [
+      { "name": "amaro", "qty": 1, "unit": "oz" },
+      { "name": "falernum", "qty": 1, "unit": "oz" },
+      { "name": "lime juice", "qty": 0.75, "unit": "oz" },
+      { "name": "sherry", "qty": 0.5, "unit": "oz" }
+    ],
+    "name": "Landing Gear Fizz",
+    "style": "shaken"
+  },
+  "LastWord": {
+    "garnish": "none",
+    "ingredients": [
+      { "name": "gin", "qty": 0.75, "unit": "oz" },
+      { "name": "green Chartreuse", "qty": 0.75, "unit": "oz" },
+      { "name": "lime juice", "qty": 0.75, "unit": "oz" },
+      { "name": "Luxardo Maraschino", "qty": 0.75, "unit": "oz" },
+      { "name": "salt", "qty": 1, "unit": "dash" }
+    ],
+    "name": "Last Word",
+    "style": "shaken"
+  },
+  "LilletVive": {
+    "garnish": "sliced cucumber and strawberries",
+    "ingredients": [
+      { "name": "Lillet Blanc", "qty": 3, "unit": "oz" },
+      { "name": "tonic water", "qty": 6, "unit": "oz" }
+    ],
+    "name": "Lillet Vive",
+    "style": "built"
+  },
+  "LucienGaudin": {
+    "garnish": "lemon twist",
+    "ingredients": [
+      { "name": "Campari", "qty": 0.5, "unit": "oz" },
+      { "name": "Cointreau", "qty": 0.5, "unit": "oz" },
+      { "name": "dry vermouth", "qty": 0.5, "unit": "oz" },
+      { "name": "gin", "qty": 1.5, "unit": "oz" }
+    ],
+    "name": "Lucien Gaudin",
+    "style": "stirred"
+  },
+  "MaiTai": {
+    "garnish": "mint spring",
+    "ingredients": [
+      { "name": "dark rum", "qty": 1, "unit": "oz" },
+      { "name": "aged rum", "qty": 1, "unit": "oz" },
+      { "name": "lime juice", "qty": 1, "unit": "oz" },
+      { "name": "orange curacao", "qty": 0.5, "unit": "oz" },
+      { "name": "orgeat", "qty": 0.5, "unit": "oz" }
+    ],
+    "name": "Mai Tai",
+    "style": "shaken"
+  },
+  "Manhattan": {
+    "garnish": "brandied cherry",
+    "ingredients": [
+      { "name": "Angostura bitters", "qty": 2, "unit": "dash" },
+      { "name": "rye whiskey", "qty": 2, "unit": "oz" },
+      { "name": "sweet vermouth", "qty": 0.75, "unit": "oz" }
+    ],
+    "name": "Manhattan",
+    "style": "stirred"
+  },
+  "Margarita": {
+    "garnish": "salt rim and lime wedge",
+    "ingredients": [
+      { "name": "Cointreau", "qty": 0.75, "unit": "oz" },
+      { "name": "lime juice", "qty": 1, "unit": "oz" },
+      { "name": "agave nectar", "qty": 0.5, "unit": "oz" },
+      { "name": "tequila reposado", "qty": 2, "unit": "oz" }
+    ],
+    "name": "Margarita",
+    "style": "shaken"
+  },
+  "Martinez": {
+    "garnish": "lemon twist",
+    "ingredients": [
+      { "name": "Angostura bitters", "qty": 2, "unit": "dash" },
+      { "name": "gin", "qty": 1.5, "unit": "oz" },
+      { "name": "sweet vermouth", "qty": 1, "unit": "oz" },
+      { "name": "Luxardo Maraschino", "qty": 1, "unit": "tsp" }
+    ],
+    "name": "Martinez",
+    "style": "stirred"
+  },
+  "Martini": {
+    "garnish": "lemon twist",
+    "ingredients": [
+      { "name": "orange bitters", "qty": 1, "unit": "dash" },
+      { "name": "dry vermouth", "qty": 0.75, "unit": "oz" },
+      { "name": "gin", "qty": 2.5, "unit": "oz" }
+    ],
+    "name": "Martini",
+    "style": "stirred"
+  },
+  "MiTo": {
+    "garnish": "orange twist",
+    "ingredients": [
+      { "name": "Campari", "qty": 1, "unit": "oz" },
+      { "name": "sweet vermouth", "qty": 1, "unit": "oz" }
+    ],
+    "name": "Mi To",
+    "style": "built"
+  },
+  "MintJulep": {
+    "garnish": "mint bouquet",
+    "ingredients": [
+      { "name": "muddled mint leaves", "qty": 10, "unit": "each" },
+      { "name": "bourbon whiskey", "qty": 2, "unit": "oz" },
+      { "name": "simple syrup", "qty": 0.75, "unit": "oz" }
+    ],
+    "name": "Mint Julep",
+    "style": "shaken"
+  },
+  "Mojito": {
+    "garnish": "mint bouquet",
+    "ingredients": [
+      { "name": "Angostura bitters", "qty": 2, "unit": "dash" },
+      { "name": "muddled mint leaves", "qty": 6, "unit": "each" },
+      { "name": "lime juice", "qty": 1, "unit": "oz" },
+      { "name": "rum", "qty": 2, "unit": "oz" },
+      { "name": "simple syrup", "qty": 0.75, "unit": "oz" }
+    ],
+    "name": "Mojito",
+    "style": "shaken"
+  },
+  "Montegomatica": {
+    "garnish": "mint sprig",
+    "ingredients": [
+      { "name": "rum", "qty": 1.5, "unit": "oz" },
+      { "name": "Fernet Branca", "qty": 1, "unit": "oz" },
+      { "name": "falernum", "qty": 1, "unit": "oz" },
+      { "name": "lime juice", "qty": 1, "unit": "oz" },
+      { "name": "blackstrap rum", "qty": 1, "unit": "tsp" }
+    ],
+    "name": "Montegomatica",
+    "style": "shaken"
+  },
+  "MoscowMule": {
+    "garnish": "mint sprig",
+    "ingredients": [
+      { "name": "club soda", "qty": 2, "unit": "oz" },
+      { "name": "ginger syrup", "qty": 0.75, "unit": "oz" },
+      { "name": "lime juice", "qty": 0.75, "unit": "oz" },
+      { "name": "vodka", "qty": 2, "unit": "oz" }
+    ],
+    "name": "Moscow Mule",
+    "style": "built"
+  },
+  "Negroni": {
+    "garnish": "orange twist",
+    "ingredients": [
+      { "name": "Campari", "qty": 1, "unit": "oz" },
+      { "name": "gin", "qty": 1, "unit": "oz" },
+      { "name": "sweet vermouth", "qty": 1, "unit": "oz" }
+    ],
+    "name": "Negroni",
+    "style": "built"
+  },
+  "NegroniSbagliato": {
+    "garnish": "orange slice",
+    "ingredients": [
+      { "name": "Campari", "qty": 1, "unit": "oz" },
+      { "name": "sweet vermouth", "qty": 1, "unit": "oz" },
+      { "name": "Champagne or sparkling wine", "qty": 1, "unit": "oz" }
+    ],
+    "name": "Negroni Sbagliato",
+    "style": "built"
+  },
+  "OdeToViceroy": {
+    "garnish": "lime wheel",
+    "ingredients": [
+      { "name": "blended scotch whiskey", "qty": 1.5, "unit": "oz" },
+      { "name": "falernum", "qty": 0.5, "unit": "oz" },
+      { "name": "lime juice", "qty": 0.5, "unit": "oz" },
+      { "name": "ginger syrup", "qty": 0.5, "unit": "oz" }
+    ],
+    "name": "Ode To Viceroy",
+    "style": "shaken"
+  },
+  "OldFashioned": {
+    "garnish": "lemon twist",
+    "ingredients": [
+      { "name": "Angostura bitters", "qty": 2, "unit": "dash" },
+      { "name": "rye whiskey", "qty": 2, "unit": "oz" },
+      { "name": "simple syrup", "qty": 1, "unit": "tsp" }
+    ],
+    "name": "Old Fashioned",
+    "style": "built"
+  },
+  "OldHickory": {
+    "garnish": "lemon twist",
+    "ingredients": [
+      { "name": "orange bitters", "qty": 1, "unit": "dash" },
+      { "name": "Peychaud's bitters", "qty": 1, "unit": "dash" },
+      { "name": "dry vermouth", "qty": 1.5, "unit": "oz" },
+      { "name": "sweet vermouth", "qty": 1.5, "unit": "oz" }
+    ],
+    "name": "Old Hickory",
+    "style": "built"
+  },
+  "OldPal": {
+    "garnish": "lemon twist",
+    "ingredients": [
+      { "name": "Campari", "qty": 0.75, "unit": "oz" },
+      { "name": "dry vermouth", "qty": 0.75, "unit": "oz" },
+      { "name": "rye whiskey", "qty": 2, "unit": "oz" }
+    ],
+    "name": "Old Pal",
+    "style": "stirred"
+  },
+  "Paloma": {
+    "garnish": "lime wheel",
+    "ingredients": [
+      { "name": "club soda", "qty": 1.5, "unit": "oz" },
+      { "name": "grapefruit juice", "qty": 1, "unit": "oz" },
+      { "name": "lime juice", "qty": 0.75, "unit": "oz" },
+      { "name": "simple syrup", "qty": 0.75, "unit": "oz" },
+      { "name": "tequila blanco", "qty": 2, "unit": "oz" }
+    ],
+    "name": "Paloma",
+    "style": "built"
+  },
+  "PeguClub": {
+    "garnish": "lime slice",
+    "ingredients": [
+      { "name": "Angostura bitters", "qty": 1, "unit": "dash" },
+      { "name": "orange bitters", "qty": 1, "unit": "dash" },
+      { "name": "gin", "qty": 2, "unit": "oz" },
+      { "name": "lime juice", "qty": 0.5, "unit": "oz" },
+      { "name": "orange curacao", "qty": 0.75, "unit": "oz" }
+    ],
+    "name": "Pegu Club",
+    "style": "shaken"
+  },
+  "Penicillin": {
+    "garnish": "fresh ginger slices",
+    "ingredients": [
+      { "name": "blended scotch whiskey", "qty": 2, "unit": "oz" },
+      { "name": "honey simple syrup", "qty": 0.75, "unit": "oz" },
+      { "name": "scotch whisky", "qty": 0.25, "unit": "oz" },
+      { "name": "lemon juice", "qty": 0.75, "unit": "oz" }
+    ],
+    "name": "Penicillin",
+    "style": "stirred"
+  },
+  "PingPongCocktail": {
+    "garnish": "lemon twist",
+    "ingredients": [
+      { "name": "orange bitters", "qty": 2, "unit": "dash" },
+      { "name": "amaro", "qty": 0.5, "unit": "oz" },
+      { "name": "dry vermouth", "qty": 0.5, "unit": "oz" },
+      { "name": "sloe gin", "qty": 2, "unit": "oz" }
+    ],
+    "name": "Ping-Pong Cocktail",
+    "style": "stirred"
+  },
+  "PinkGin": {
+    "garnish": "none",
+    "ingredients": [
+      { "name": "Angostura bitters", "qty": 5, "unit": "dash" },
+      { "name": "gin", "qty": 2, "unit": "oz" }
+    ],
+    "name": "Pink Gin",
+    "style": "stirred"
+  },
+  "Pisco75": {
+    "garnish": "lime slice",
+    "ingredients": [
+      { "name": "muddled strawberry", "qty": 1, "unit": "each" },
+      { "name": "Champagne or sparkling wine", "qty": 2.5, "unit": "oz" },
+      { "name": "lemon juice", "qty": 0.5, "unit": "oz" },
+      { "name": "pisco", "qty": 1, "unit": "oz" },
+      { "name": "simple syrup", "qty": 0.5, "unit": "oz" }
+    ],
+    "name": "Pisco 75",
+    "style": "bubbly"
+  },
+  "PiscoSour": {
+    "garnish": "lime slice",
+    "ingredients": [
+      { "name": "Angostura bitters", "qty": 3, "unit": "dash" },
+      { "name": "egg white", "qty": 1, "unit": "each" },
+      { "name": "lime juice", "qty": 0.75, "unit": "oz" },
+      { "name": "pisco", "qty": 2, "unit": "oz" },
+      { "name": "simple syrup", "qty": 0.75, "unit": "oz" }
+    ],
+    "name": "Pisco Sour",
+    "style": "double shake"
+  },
+  "PlantersPunch": {
+    "garnish": "pineapple wedge & orange wheel & mint sprig",
+    "ingredients": [
+      { "name": "dark rum", "qty": 1.5, "unit": "oz" },
+      { "name": "pineapple juice", "qty": 1, "unit": "oz" },
+      { "name": "lime juice", "qty": 0.5, "unit": "oz" },
+      { "name": "orange juice", "qty": 0.5, "unit": "oz" },
+      { "name": "simple syrup", "qty": 0.25, "unit": "oz" }
+    ],
+    "name": "Planter's Punch",
+    "style": "shaken"
+  },
+  "Preakness": {
+    "garnish": "orange twist",
+    "ingredients": [
+      { "name": "Angostura bitters", "qty": 2, "unit": "dash" },
+      { "name": "Benedictine", "qty": 0.25, "unit": "oz" },
+      { "name": "bourbon whiskey", "qty": 1.5, "unit": "oz" },
+      { "name": "sweet vermouth", "qty": 0.75, "unit": "oz" }
+    ],
+    "name": "Preakness",
+    "style": "stirred"
+  },
+  "QueensParkSwizzle": {
+    "garnish": "mint sprig",
+    "ingredients": [
+      { "name": "sugar cube", "qty": 1, "unit": "each" },
+      { "name": "Angostura bitters", "qty": 4, "unit": "dash" },
+      { "name": "Peychaud's bitters", "qty": 4, "unit": "dash" },
+      { "name": "muddled mint leaves", "qty": 10, "unit": "each" },
+      { "name": "aged rum", "qty": 2, "unit": "oz" },
+      { "name": "lime juice", "qty": 1, "unit": "oz" },
+      { "name": "simple syrup", "qty": 0.75, "unit": "oz" }
+    ],
+    "name": "Queen's Park Swizzle",
+    "style": "shaken"
+  },
+  "RamosGinFizz": {
+    "garnish": "orange wheel",
+    "ingredients": [
+      { "name": "orange flower water", "qty": 3, "unit": "dash" },
+      { "name": "egg white", "qty": 1, "unit": "each" },
+      { "name": "heavy cream", "qty": 1, "unit": "oz" },
+      { "name": "lemon juice", "qty": 0.5, "unit": "oz" },
+      { "name": "lime juice", "qty": 0.5, "unit": "oz" },
+      { "name": "Old Tom gin", "qty": 1.5, "unit": "oz" },
+      { "name": "simple syrup", "qty": 0.5, "unit": "oz" },
+      { "name": "soda water", "qty": 1, "unit": "oz" }
+    ],
+    "name": "Ramos Gin Fizz",
+    "style": "fizz"
+  },
+  "RobRoy": {
+    "garnish": "lemon twist",
+    "ingredients": [
+      { "name": "Angostura bitters", "qty": 2, "unit": "dash" },
+      { "name": "blended scotch whiskey", "qty": 2.5, "unit": "oz" },
+      { "name": "sweet vermouth", "qty": 0.75, "unit": "oz" }
+    ],
+    "name": "Rob Roy",
+    "style": "stirred"
+  },
+  "Rum75": {
+    "garnish": "lemon twist",
+    "ingredients": [
+      { "name": "aged rum", "qty": 1, "unit": "oz" },
+      { "name": "Champagne or sparkling wine", "qty": 2.5, "unit": "oz" },
+      { "name": "lemon juice", "qty": 0.5, "unit": "oz" },
+      { "name": "simple syrup", "qty": 0.5, "unit": "oz" }
+    ],
+    "name": "Rum 75",
+    "style": "bubbly"
+  },
+  "RumOldFashioned": {
+    "garnish": "lemon twist",
+    "ingredients": [
+      { "name": "Angostura bitters", "qty": 2, "unit": "dash" },
+      { "name": "aged rum", "qty": 2, "unit": "oz" },
+      { "name": "simple syrup", "qty": 1, "unit": "tsp" }
+    ],
+    "name": "Rum Old Fashioned",
+    "style": "built"
+  },
+  "RumToddy": {
+    "garnish": "lemon twist",
+    "ingredients": [
+      { "name": "Angostura bitters", "qty": 2, "unit": "dash" },
+      { "name": "aged rum", "qty": 2, "unit": "oz" },
+      { "name": "boiling water", "qty": 3, "unit": "oz" },
+      { "name": "simple syrup", "qty": 1, "unit": "tsp" }
+    ],
+    "name": "Rum Toddy",
+    "style": "hot"
+  },
+  "RustyNail": {
+    "garnish": "lemon twist",
+    "ingredients": [
+      { "name": "blended scotch whiskey", "qty": 2, "unit": "oz" },
+      { "name": "Drambuie", "qty": 0.5, "unit": "oz" }
+    ],
+    "name": "Rusty Nail",
+    "style": "stirred"
+  },
+  "Sawyer": {
+    "garnish": "lime twist",
+    "ingredients": [
+      { "name": "Angostura bitters", "qty": 14, "unit": "dash" },
+      { "name": "orange bitters", "qty": 7, "unit": "dash" },
+      { "name": "Peychaud's bitters", "qty": 7, "unit": "dash" },
+      { "name": "gin", "qty": 2, "unit": "oz" },
+      { "name": "lime juice", "qty": 0.5, "unit": "oz" },
+      { "name": "simple syrup", "qty": 0.5, "unit": "oz" }
+    ],
+    "name": "Sawyer",
+    "style": "shaken"
+  },
+  "Sazerac": {
+    "garnish": "lemon twist",
+    "ingredients": [
+      { "name": "Peychaud's bitters", "qty": 4, "unit": "dash" },
+      { "name": "rye whiskey", "qty": 2, "unit": "oz" },
+      { "name": "simple syrup", "qty": 0.25, "unit": "oz" },
+      { "name": "absinthe", "qty": 1, "unit": "rinse" }
+    ],
+    "name": "Sazerac",
+    "style": "stirred"
+  },
+  "ScofflawCocktail": {
+    "garnish": "orange twist",
+    "ingredients": [
+      { "name": "orange bitters", "qty": 1, "unit": "dash" },
+      { "name": "dry vermouth", "qty": 1, "unit": "oz" },
+      { "name": "grenadine", "qty": 0.75, "unit": "oz" },
+      { "name": "lemon juice", "qty": 0.75, "unit": "oz" },
+      { "name": "rye whiskey", "qty": 1.5, "unit": "oz" }
+    ],
+    "name": "Scofflaw Cocktail",
+    "style": "shaken"
+  },
+  "ScotchOldFashioned": {
+    "garnish": "none",
+    "ingredients": [
+      { "name": "Angostura bitters", "qty": 2, "unit": "dash" },
+      { "name": "scotch whisky", "qty": 2, "unit": "oz" },
+      { "name": "honey", "qty": 1, "unit": "tsp" }
+    ],
+    "name": "Scotch Old Fashioned",
+    "style": "built"
+  },
+  "ScotchToddy": {
+    "garnish": "lemon twist",
+    "ingredients": [
+      { "name": "boiling water", "qty": 3, "unit": "oz" },
+      { "name": "lemon juice", "qty": 0.5, "unit": "oz" },
+      { "name": "scotch whisky", "qty": 2, "unit": "oz" },
+      { "name": "honey", "qty": 1, "unit": "tbl" }
+    ],
+    "name": "Scotch Toddy",
+    "style": "hot"
+  },
+  "SeelbachCocktail": {
+    "garnish": "orange twist",
+    "ingredients": [
+      { "name": "Angostura bitters", "qty": 7, "unit": "dash" },
+      { "name": "Peychaud's bitters", "qty": 7, "unit": "dash" },
+      { "name": "bourbon whiskey", "qty": 1, "unit": "oz" },
+      { "name": "Champagne or sparkling wine", "qty": 2, "unit": "oz" },
+      { "name": "Cointreau", "qty": 0.5, "unit": "oz" }
+    ],
+    "name": "Seelbach Cocktail",
+    "style": "bubbly"
+  },
+  "Sidecar": {
+    "garnish": "sugared rim",
+    "ingredients": [
+      { "name": "cognac", "qty": 2, "unit": "oz" },
+      { "name": "Cointreau", "qty": 1, "unit": "oz" },
+      { "name": "lemon juice", "qty": 0.75, "unit": "oz" }
+    ],
+    "name": "Sidecar",
+    "style": "stirred"
+  },
+  "SingaporeSling": {
+    "garnish": "pineapple slice and brandied cherry",
+    "ingredients": [
+      { "name": "Cherry Heering", "qty": 0.5, "unit": "oz" },
+      { "name": "gin", "qty": 1, "unit": "oz" },
+      { "name": "pineapple juice", "qty": 4, "unit": "oz" },
+      { "name": "lime juice", "qty": 0.5, "unit": "oz" },
+      { "name": "Cointreau", "qty": 0.25, "unit": "oz" },
+      { "name": "Benedictine", "qty": 0.25, "unit": "oz" },
+      { "name": "grenadine", "qty": 0.5, "unit": "oz" },
+      { "name": "Angostura bitters", "qty": 4, "unit": "dash" }
+    ],
+    "name": "Singapore Sling",
+    "style": "shaken"
+  },
+  "SouthSide": {
+    "garnish": "mint sprig",
+    "ingredients": [
+      { "name": "Angostura bitters", "qty": 2, "unit": "dash" },
+      { "name": "muddled mint leaves", "qty": 5, "unit": "each" },
+      { "name": "gin", "qty": 2, "unit": "oz" },
+      { "name": "lime juice", "qty": 0.75, "unit": "oz" },
+      { "name": "simple syrup", "qty": 0.5, "unit": "oz" }
+    ],
+    "name": "South Side",
+    "style": "shaken"
+  },
+  "SouthlandSipper": {
+    "garnish": "strawberry slice",
+    "ingredients": [
+      { "name": "Angostura bitters", "qty": 2, "unit": "dash" },
+      { "name": "muddled strawberry", "qty": 1, "unit": "each" },
+      { "name": "Benedictine", "qty": 0.25, "unit": "oz" },
+      { "name": "club soda", "qty": 2, "unit": "oz" },
+      { "name": "lemon juice", "qty": 0.75, "unit": "oz" },
+      { "name": "rye whiskey", "qty": 1.5, "unit": "oz" },
+      { "name": "simple syrup", "qty": 0.75, "unit": "oz" }
+    ],
+    "name": "Southland Sipper",
+    "style": "shaken"
+  },
+  "SouthsideCocktail": {
+    "garnish": "mint sprig",
+    "ingredients": [
+      { "name": "muddled mint leaves", "qty": 8, "unit": "each" },
+      { "name": "club soda", "qty": 2, "unit": "oz" },
+      { "name": "gin", "qty": 2, "unit": "oz" },
+      { "name": "lemon juice", "qty": 0.75, "unit": "oz" },
+      { "name": "simple syrup", "qty": 0.75, "unit": "oz" }
+    ],
+    "name": "Southside Cocktail",
+    "style": "shaken"
+  },
+  "SouthsideFizz": {
+    "garnish": "mint sprig",
+    "ingredients": [
+      { "name": "muddled cucumber wheel", "qty": 2, "unit": "each" },
+      { "name": "muddled mint leaves", "qty": 8, "unit": "each" },
+      { "name": "club soda", "qty": 2, "unit": "oz" },
+      { "name": "gin", "qty": 2, "unit": "oz" },
+      { "name": "lime juice", "qty": 0.75, "unit": "oz" },
+      { "name": "simple syrup", "qty": 1, "unit": "oz" }
+    ],
+    "name": "Southside Fizz",
+    "style": "bubbly"
+  },
+  "StazioneStrega": {
+    "garnish": "orange twist",
+    "ingredients": [
+      { "name": "Strega", "qty": 1, "unit": "oz" },
+      { "name": "Fernet Branca", "qty": 1, "unit": "oz" },
+      { "name": "sweet vermouth", "qty": 1, "unit": "oz" }
+    ],
+    "name": "Stazione Strega",
+    "style": "stirred"
+  },
+  "Stinger": {
+    "garnish": "mint sprig",
+    "ingredients": [
+      { "name": "cognac", "qty": 2, "unit": "oz" },
+      { "name": "creme de menthe", "qty": 0.5, "unit": "oz" },
+      { "name": "simple syrup", "qty": 1, "unit": "tsp" }
+    ],
+    "name": "Stinger",
+    "style": "stirred"
+  },
+  "StregaMule": {
+    "garnish": "mint sprig and lime wedge",
+    "ingredients": [
+      { "name": "Strega", "qty": 1.5, "unit": "oz" },
+      { "name": "lemon juice", "qty": 0.5, "unit": "oz" },
+      { "name": "ginger beer", "qty": 5, "unit": "oz" }
+    ],
+    "name": "Strega Mule",
+    "style": "built"
+  },
+  "SummerNegroni": {
+    "garnish": "lemon twist",
+    "ingredients": [
+      { "name": "aperol", "qty": 1, "unit": "oz" },
+      { "name": "bianco vermouth", "qty": 1, "unit": "oz" },
+      { "name": "gin", "qty": 1, "unit": "oz" }
+    ],
+    "name": "Summer Negroni",
+    "style": "stirred"
+  },
+  "Tailspin": {
+    "garnish": "lemon twist",
+    "ingredients": [
+      { "name": "orange bitters", "qty": 2, "unit": "dash" },
+      { "name": "gin", "qty": 1.5, "unit": "oz" },
+      { "name": "green Chartreuse", "qty": 1, "unit": "oz" },
+      { "name": "sweet vermouth", "qty": 1, "unit": "oz" },
+      { "name": "Campari", "qty": 1, "unit": "rinse" }
+    ],
+    "name": "Tailspin",
+    "style": "stirred"
+  },
+  "Tequila75": {
+    "garnish": "lime twist",
+    "ingredients": [
+      { "name": "agave nectar", "qty": 0.5, "unit": "oz" },
+      { "name": "Champagne or sparkling wine", "qty": 2.5, "unit": "oz" },
+      { "name": "lemon juice", "qty": 0.5, "unit": "oz" },
+      { "name": "tequila blanco", "qty": 1, "unit": "oz" }
+    ],
+    "name": "Tequila 75",
+    "style": "bubbly"
+  },
+  "TheBamboo": {
+    "garnish": "lemon twist",
+    "ingredients": [
+      { "name": "Angostura bitters", "qty": 1, "unit": "dash" },
+      { "name": "orange bitters", "qty": 2, "unit": "dash" },
+      { "name": "dry vermouth", "qty": 1.5, "unit": "oz" },
+      { "name": "sherry", "qty": 1.5, "unit": "oz" }
+    ],
+    "name": "The Bamboo",
+    "style": "stirred"
+  },
+  "TheFrankO\u2019hara": {
+    "garnish": "lemon twist",
+    "ingredients": [
+      { "name": "gin", "qty": 2, "unit": "oz" },
+      { "name": "Strega", "qty": 2, "unit": "tsp" }
+    ],
+    "name": "The Frank O\u2019Hara",
+    "style": "stirred"
+  },
+  "TomCollins": {
+    "garnish": "lemon slice",
+    "ingredients": [
+      { "name": "club soda", "qty": 2, "unit": "oz" },
+      { "name": "gin", "qty": 2, "unit": "oz" },
+      { "name": "lemon juice", "qty": 0.75, "unit": "oz" },
+      { "name": "simple syrup", "qty": 0.75, "unit": "oz" }
+    ],
+    "name": "Tom Collins",
+    "style": "shaken"
+  },
+  "Toronto": {
+    "garnish": "orange twist",
+    "ingredients": [
+      { "name": "Angostura bitters", "qty": 2, "unit": "dash" },
+      { "name": "Fernet Branca", "qty": 0.25, "unit": "oz" },
+      { "name": "rye whiskey", "qty": 2, "unit": "oz" },
+      { "name": "simple syrup", "qty": 0.25, "unit": "oz" }
+    ],
+    "name": "Toronto",
+    "style": "stirred"
+  },
+  "Trident": {
+    "garnish": "lemon twist",
+    "ingredients": [
+      { "name": "peach bitters", "qty": 2, "unit": "dash" },
+      { "name": "aquavit", "qty": 1, "unit": "oz" },
+      { "name": "Cynar", "qty": 1, "unit": "oz" },
+      { "name": "dry sherry", "qty": 1, "unit": "oz" }
+    ],
+    "name": "Trident",
+    "style": "stirred"
+  },
+  "Vesper": {
+    "garnish": "lemon twist",
+    "ingredients": [
+      { "name": "Cocchi Americano", "qty": 0.5, "unit": "oz" },
+      { "name": "gin", "qty": 1.5, "unit": "oz" },
+      { "name": "vodka", "qty": 0.75, "unit": "oz" }
+    ],
+    "name": "Vesper",
+    "style": "stirred"
+  },
+  "VieuxCarre": {
+    "garnish": "lemon twist",
+    "ingredients": [
+      { "name": "Angostura bitters", "qty": 1, "unit": "dash" },
+      { "name": "Peychaud's bitters", "qty": 1, "unit": "dash" },
+      { "name": "Benedictine", "qty": 0.25, "unit": "oz" },
+      { "name": "cognac", "qty": 1, "unit": "oz" },
+      { "name": "rye whiskey", "qty": 1, "unit": "oz" },
+      { "name": "sweet vermouth", "qty": 0.75, "unit": "oz" }
+    ],
+    "name": "Vieux Carre",
+    "style": "stirred"
+  },
+  "Ward8": {
+    "garnish": "brandied cherry",
+    "ingredients": [
+      { "name": "lemon juice", "qty": 0.5, "unit": "oz" },
+      { "name": "orange juice", "qty": 0.5, "unit": "oz" },
+      { "name": "rye whiskey", "qty": 2, "unit": "oz" },
+      { "name": "simple syrup", "qty": 0.5, "unit": "oz" },
+      { "name": "pomegranate molasses", "qty": 1, "unit": "tsp" }
+    ],
+    "name": "Ward 8",
+    "style": "shaken"
+  },
+  "WhiskeySour": {
+    "garnish": "lemon slice",
+    "ingredients": [
+      { "name": "egg white", "qty": 1, "unit": "each" },
+      { "name": "lemon juice", "qty": 0.625, "unit": "oz" },
+      { "name": "rye whiskey", "qty": 2, "unit": "oz" },
+      { "name": "simple syrup", "qty": 0.75, "unit": "oz" },
+      { "name": "salt", "qty": 1, "unit": "dash" }
+    ],
+    "name": "Whiskey Sour",
+    "style": "double shake"
+  },
+  "WidowsKiss": {
+    "garnish": "mint sprig",
+    "ingredients": [
+      { "name": "Angostura bitters", "qty": 2, "unit": "dash" },
+      { "name": "apple brandy", "qty": 2, "unit": "oz" },
+      { "name": "Benedictine", "qty": 0.25, "unit": "oz" },
+      { "name": "yellow Chartreuse", "qty": 0.25, "unit": "oz" }
+    ],
+    "name": "Widow's Kiss",
+    "style": "stirred"
+  },
+  "ZimZalaBim": {
+    "garnish": "lemon twist",
+    "ingredients": [
+      { "name": "reposado tequila", "qty": 2, "unit": "oz" },
+      { "name": "orange bitters", "qty": 2, "unit": "tsp" },
+      { "name": "St. Germain elderflower liqueur", "qty": 2, "unit": "tsp" },
+      { "name": "sugar", "qty": 1, "unit": "tsp" }
+    ],
+    "name": "Zim Zala Bim",
+    "style": "stirred"
+  }
+}

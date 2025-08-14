@@ -1,5 +1,5 @@
 import { Cocktails, CocktailMap } from './drinkParams';
-import { Manhattan, Negroni } from './recipes';
+import { Manhattan, Negroni } from '../data/recipes';
 
 export const allCocktails: Cocktails = { cocktails: [Manhattan, Negroni] };
 export const cocktailMap: CocktailMap = {

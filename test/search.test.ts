@@ -30,3 +30,8 @@ test('basic empty results', () => {
   const query = includeIngredients(new Set<string>());
   expect(query.size).toBe(0);
 });
+
+test('basic mismatch', () => {
+  const query = includeIngredients(new Set<string>('not a real ingredient'));
+  expect(query.size).toBe(0);
+});

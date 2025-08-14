@@ -16,3 +16,10 @@ build/
 !.vscode/extensions.json
 .idea
 *.swp
+
+# Jest
+coverage/
+lcov-report
+coverage-final.json
+lcov.info
+lcov-report
