@@ -13,7 +13,7 @@ Agave Old Fashioned,agave nectar,tsp,1
 Airmail,aged rum,oz,1
 Airmail,honey simple syrup,oz,0.5
 Airmail,lime juice,oz,0.5
-Airmail,Champagne or sparkling wine,oz,1
+Airmail,Champagne,oz,1
 Alabazam,Angostura bitters,oz,0.25
 Alabazam,cognac,oz,1.5
 Alabazam,Cointreau,oz,0.5
@@ -21,7 +21,7 @@ Alabazam,lemon juice,oz,0.25
 Alabazam,simple syrup,oz,0.25
 Alaska Cocktail,orange bitters,dash,1
 Alaska Cocktail,gin,oz,1.5
-Alaska Cocktail,yellow Chartreuse,oz,0.75
+Alaska Cocktail,Yellow Chartreuse,oz,0.75
 Americano,Campari,oz,1
 Americano,sweet vermouth,oz,1
 Americano,soda water,oz,2
@@ -48,10 +48,10 @@ Bee's Knees,honey simple syrup,oz,0.75
 Bee's Knees,lemon juice,oz,0.75
 Bijou,orange bitters,dash,1
 Bijou,gin,oz,1
-Bijou,green Chartreuse,oz,1
+Bijou,Green Chartreuse,oz,1
 Bijou,sweet vermouth,oz,1
 Bitter French,Campari,oz,0.25
-Bitter French,Champagne or sparkling wine,oz,2.5
+Bitter French,Champagne,oz,2.5
 Bitter French,gin,oz,1
 Bitter French,lemon juice,oz,0.5
 Bitter French,simple syrup,oz,0.5
@@ -73,10 +73,10 @@ Blonde Redhead,grapefruit juice,oz,1
 Blonde Redhead,lemon juice,oz,0.25
 Blood & Sand,Cherry Heering,oz,0.5
 Blood & Sand,orange juice,oz,0.75
-Blood & Sand,scotch whisky,oz,1
+Blood & Sand,Scotch whisky,oz,1
 Bobby Burns,Angostura bitters,dash,1
 Bobby Burns,Benedictine,oz,0.25
-Bobby Burns,blended scotch whiskey,oz,2
+Bobby Burns,Scotch whiskey,oz,2
 Bobby Burns,Drambuie,oz,0.25
 Bobby Burns,sweet vermouth,oz,0.75
 Boulevardier,Campari,oz,1
@@ -86,7 +86,7 @@ Bourbon Toddy,Angostura bitters,dash,2
 Bourbon Toddy,boiling water,oz,3
 Bourbon Toddy,bourbon whiskey,oz,2
 Bourbon Toddy,simple syrup,tsp,1
-Brandy 75,Champagne or sparkling wine,oz,2.5
+Brandy 75,Champagne,oz,2.5
 Brandy 75,cognac,oz,1
 Brandy 75,lemon juice,oz,0.5
 Brandy 75,simple syrup,oz,0.5
@@ -113,10 +113,10 @@ Campari Orange,Campari,oz,2
 Campari Orange,orange juice,oz,6
 Champagne Cocktail,sugar cube,each,1
 Champagne Cocktail,Angostura bitters,dash,5
-Champagne Cocktail,Champagne or sparkling wine,oz,5
+Champagne Cocktail,Champagne,oz,5
 Champs-Elysees,Angostura bitters,dash,2
 Champs-Elysees,cognac,oz,2
-Champs-Elysees,green Chartreuse,oz,0.5
+Champs-Elysees,Green Chartreuse,oz,0.5
 Champs-Elysees,lemon juice,oz,0.75
 Champs-Elysees,simple syrup,oz,0.5
 Corn 'n' Oil,Angostura bitters,dash,3
@@ -141,7 +141,7 @@ Cosmopolitan,vodka,oz,1.5
 Cricket Ball,sugar cube,each,1
 Cricket Ball,Peychaud's bitters,dash,3
 Cricket Ball,rhubarb bitters,dash,3
-Cricket Ball,Champagne or sparkling wine,oz,3
+Cricket Ball,Champagne,oz,3
 Cricket Ball,Lillet Rouge,oz,1
 Daiquiri,lime juice,oz,0.75
 Daiquiri,simple syrup,oz,0.75
@@ -157,7 +157,7 @@ De La Louisiane,rye whiskey,oz,2
 De La Louisiane,sweet vermouth,oz,0.5
 Diamondback,apple brandy,oz,0.5
 Diamondback,rye whiskey,oz,2
-Diamondback,yellow Chartreuse,oz,0.5
+Diamondback,Yellow Chartreuse,oz,0.5
 Fancy-Free,Angostura bitters,dash,1
 Fancy-Free,orange bitters,dash,1
 Fancy-Free,Luxardo Maraschino,oz,0.5
@@ -166,16 +166,16 @@ Fitzgerald,Angostura bitters,dash,2
 Fitzgerald,gin,oz,2
 Fitzgerald,lemon juice,oz,0.75
 Fitzgerald,simple syrup,oz,1
-French 75,Champagne or sparkling wine,oz,2.5
+French 75,Champagne,oz,2.5
 French 75,gin,oz,1
 French 75,lemon juice,oz,0.5
 French 75,simple syrup,oz,0.5
 French 95,bourbon whiskey,oz,2
-French 95,Champagne or sparkling wine,oz,2.5
+French 95,Champagne,oz,2.5
 French 95,lemon juice,oz,0.75
 French 95,simple syrup,oz,0.5
 Gargoyle and Spire,orange bitters,dash,2
-Gargoyle and Spire,Champagne or sparkling wine,oz,2
+Gargoyle and Spire,Champagne,oz,2
 Gargoyle and Spire,gin,oz,1
 Gargoyle and Spire,simple syrup,oz,0.25
 Gargoyle and Spire,Strega,oz,0.75
@@ -238,7 +238,7 @@ Jersey Julep,maple syrup,oz,0.5
 La Rosa,muddled strawberry,each,1
 La Rosa,amaro,oz,1
 La Rosa,lemon juice,oz,0.75
-La Rosa,pink Champagne or sparkling wine,oz,1.5
+La Rosa,pink Champagne,oz,1.5
 La Rosa,simple syrup,oz,0.5
 La Rosa,tequila blanco,oz,2
 La Rosita,Angostura bitters,dash,2
@@ -247,7 +247,7 @@ La Rosita,dry vermouth,oz,0.5
 La Rosita,reposado tequila,oz,2
 La Rosita,sweet vermouth,oz,0.5
 Last Word,gin,oz,0.75
-Last Word,green Chartreuse,oz,0.75
+Last Word,Green Chartreuse,oz,0.75
 Last Word,lime juice,oz,0.75
 Last Word,Luxardo Maraschino,oz,0.75
 Last Word,salt,dash,1
@@ -290,7 +290,7 @@ Negroni,gin,oz,1
 Negroni,sweet vermouth,oz,1
 Negroni Sbagliato,Campari,oz,1
 Negroni Sbagliato,sweet vermouth,oz,1
-Negroni Sbagliato,Champagne or sparkling wine,oz,1
+Negroni Sbagliato,Champagne,oz,1
 Old Fashioned,Angostura bitters,dash,2
 Old Fashioned,rye whiskey,oz,2
 Old Fashioned,simple syrup,tsp,1
@@ -311,9 +311,9 @@ Pegu Club,orange bitters,dash,1
 Pegu Club,gin,oz,2
 Pegu Club,lime juice,oz,0.5
 Pegu Club,orange curacao,oz,0.75
-Penicillin,blended scotch whiskey,oz,2
+Penicillin,Scotch whiskey,oz,2
 Penicillin,honey simple syrup,oz,0.75
-Penicillin,scotch whisky,oz,0.25
+Penicillin,Scotch whisky,oz,0.25
 Penicillin,lemon juice,oz,0.75
 Ping-Pong Cocktail,orange bitters,dash,2
 Ping-Pong Cocktail,amaro,oz,0.5
@@ -322,7 +322,7 @@ Ping-Pong Cocktail,sloe gin,oz,2
 Pink Gin,Angostura bitters,dash,5
 Pink Gin,gin,oz,2
 Pisco 75,muddled strawberry,each,1
-Pisco 75,Champagne or sparkling wine,oz,2.5
+Pisco 75,Champagne,oz,2.5
 Pisco 75,lemon juice,oz,0.5
 Pisco 75,pisco,oz,1
 Pisco 75,simple syrup,oz,0.5
@@ -351,10 +351,10 @@ Ramos Gin Fizz,Old Tom gin,oz,1.5
 Ramos Gin Fizz,simple syrup,oz,0.5
 Ramos Gin Fizz,soda water,oz,1
 Rob Roy,Angostura bitters,dash,2
-Rob Roy,blended scotch whiskey,oz,2.5
+Rob Roy,Scotch whiskey,oz,2.5
 Rob Roy,sweet vermouth,oz,0.75
 Rum 75,aged rum,oz,1
-Rum 75,Champagne or sparkling wine,oz,2.5
+Rum 75,Champagne,oz,2.5
 Rum 75,lemon juice,oz,0.5
 Rum 75,simple syrup,oz,0.5
 Rum Old Fashioned,Angostura bitters,dash,2
@@ -364,11 +364,11 @@ Rum Toddy,Angostura bitters,dash,2
 Rum Toddy,aged rum,oz,2
 Rum Toddy,boiling water,oz,3
 Rum Toddy,simple syrup,tsp,1
-Rusty Nail,blended scotch whiskey,oz,2
+Rusty Nail,Scotch whiskey,oz,2
 Rusty Nail,Drambuie,oz,0.5
-Sawyer,Angostura bitters,dash,14
-Sawyer,orange bitters,dash,7
-Sawyer,Peychaud's bitters,dash,7
+Sawyer,Angostura bitters,tsp,1
+Sawyer,orange bitters,tsp,0.5
+Sawyer,Peychaud's bitters,tsp,0.5
 Sawyer,gin,oz,2
 Sawyer,lime juice,oz,0.5
 Sawyer,simple syrup,oz,0.5
@@ -382,16 +382,16 @@ Scofflaw Cocktail,grenadine,oz,0.75
 Scofflaw Cocktail,lemon juice,oz,0.75
 Scofflaw Cocktail,rye whiskey,oz,1.5
 Scotch Old Fashioned,Angostura bitters,dash,2
-Scotch Old Fashioned,scotch whisky,oz,2
+Scotch Old Fashioned,Scotch whisky,oz,2
 Scotch Old Fashioned,honey,tsp,1
 Scotch Toddy,boiling water,oz,3
 Scotch Toddy,lemon juice,oz,0.5
-Scotch Toddy,scotch whisky,oz,2
+Scotch Toddy,Scotch whisky,oz,2
 Scotch Toddy,honey,tbl,1
 Seelbach Cocktail,Angostura bitters,dash,7
 Seelbach Cocktail,Peychaud's bitters,dash,7
 Seelbach Cocktail,bourbon whiskey,oz,1
-Seelbach Cocktail,Champagne or sparkling wine,oz,2
+Seelbach Cocktail,Champagne,oz,2
 Seelbach Cocktail,Cointreau,oz,0.5
 Sidecar,cognac,oz,2
 Sidecar,Cointreau,oz,1
@@ -441,11 +441,11 @@ Summer Negroni,bianco vermouth,oz,1
 Summer Negroni,gin,oz,1
 Tailspin,orange bitters,dash,2
 Tailspin,gin,oz,1.5
-Tailspin,green Chartreuse,oz,1
+Tailspin,Green Chartreuse,oz,1
 Tailspin,sweet vermouth,oz,1
 Tailspin,Campari,rinse,1
 Tequila 75,agave nectar,oz,0.5
-Tequila 75,Champagne or sparkling wine,oz,2.5
+Tequila 75,Champagne,oz,2.5
 Tequila 75,lemon juice,oz,0.5
 Tequila 75,tequila blanco,oz,1
 The Bamboo,Angostura bitters,dash,1
@@ -488,12 +488,12 @@ Whiskey Sour,salt,dash,1
 Widow's Kiss,Angostura bitters,dash,2
 Widow's Kiss,apple brandy,oz,2
 Widow's Kiss,Benedictine,oz,0.25
-Widow's Kiss,yellow Chartreuse,oz,0.25
+Widow's Kiss,Yellow Chartreuse,oz,0.25
 Zim Zala Bim,reposado tequila,oz,2
 Zim Zala Bim,orange bitters,tsp,2
-Zim Zala Bim,St. Germain elderflower liqueur,tsp,2
+Zim Zala Bim,St. Germain,tsp,2
 Zim Zala Bim,sugar,tsp,1
-Ode To Viceroy,blended scotch whiskey,oz,1.5
+Ode To Viceroy,Scotch whiskey,oz,1.5
 Ode To Viceroy,falernum,oz,0.5
 Ode To Viceroy,lime juice,oz,0.5
 Ode To Viceroy,ginger syrup,oz,0.5
@@ -502,7 +502,7 @@ Montegomatica,Fernet Branca,oz,1
 Montegomatica,falernum,oz,1
 Montegomatica,lime juice,oz,1
 Montegomatica,blackstrap rum,tsp,1
-Chartreuse Swizzle,green Chartreuse,oz,1.5
+Chartreuse Swizzle,Green Chartreuse,oz,1.5
 Chartreuse Swizzle,pineapple juice,oz,1
 Chartreuse Swizzle,lime juice,oz,0.75
 Chartreuse Swizzle,falernum,oz,0.5
@@ -546,7 +546,7 @@ Cuba Kola,absinthe,dash,6
 100 Year-Old Cigar,aged rum,oz,1.75
 100 Year-Old Cigar,Cynar,oz,0.5
 100 Year-Old Cigar,Benedictine,oz,0.5
-100 Year-Old Cigar,Islay Scotch whisky,oz,0.25
+100 Year-Old Cigar,Scotch whisky,oz,0.25
 100 Year-Old Cigar,Angostura bitters,dash,1
 100 Year-Old Cigar,absinthe,rinse,1
 Mai Tai,dark rum,oz,1

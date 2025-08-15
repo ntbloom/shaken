@@ -5,7 +5,7 @@
       { "name": "aged rum", "qty": 1.75, "unit": "oz" },
       { "name": "Cynar", "qty": 0.5, "unit": "oz" },
       { "name": "Benedictine", "qty": 0.5, "unit": "oz" },
-      { "name": "Islay Scotch whisky", "qty": 0.25, "unit": "oz" },
+      { "name": "Scotch whisky", "qty": 0.25, "unit": "oz" },
       { "name": "Angostura bitters", "qty": 1, "unit": "dash" },
       { "name": "absinthe", "qty": 1, "unit": "rinse" }
     ],
@@ -50,7 +50,7 @@
       { "name": "aged rum", "qty": 1, "unit": "oz" },
       { "name": "honey simple syrup", "qty": 0.5, "unit": "oz" },
       { "name": "lime juice", "qty": 0.5, "unit": "oz" },
-      { "name": "Champagne or sparkling wine", "qty": 1, "unit": "oz" }
+      { "name": "Champagne", "qty": 1, "unit": "oz" }
     ],
     "name": "Airmail",
     "style": "bubbly"
@@ -72,7 +72,7 @@
     "ingredients": [
       { "name": "orange bitters", "qty": 1, "unit": "dash" },
       { "name": "gin", "qty": 1.5, "unit": "oz" },
-      { "name": "yellow Chartreuse", "qty": 0.75, "unit": "oz" }
+      { "name": "Yellow Chartreuse", "qty": 0.75, "unit": "oz" }
     ],
     "name": "Alaska Cocktail",
     "style": "stirred"
@@ -160,7 +160,7 @@
     "ingredients": [
       { "name": "orange bitters", "qty": 1, "unit": "dash" },
       { "name": "gin", "qty": 1, "unit": "oz" },
-      { "name": "green Chartreuse", "qty": 1, "unit": "oz" },
+      { "name": "Green Chartreuse", "qty": 1, "unit": "oz" },
       { "name": "sweet vermouth", "qty": 1, "unit": "oz" }
     ],
     "name": "Bijou",
@@ -170,7 +170,7 @@
     "garnish": "lemon twist",
     "ingredients": [
       { "name": "Campari", "qty": 0.25, "unit": "oz" },
-      { "name": "Champagne or sparkling wine", "qty": 2.5, "unit": "oz" },
+      { "name": "Champagne", "qty": 2.5, "unit": "oz" },
       { "name": "gin", "qty": 1, "unit": "oz" },
       { "name": "lemon juice", "qty": 0.5, "unit": "oz" },
       { "name": "simple syrup", "qty": 0.5, "unit": "oz" }
@@ -227,7 +227,7 @@
     "ingredients": [
       { "name": "Cherry Heering", "qty": 0.5, "unit": "oz" },
       { "name": "orange juice", "qty": 0.75, "unit": "oz" },
-      { "name": "scotch whisky", "qty": 1, "unit": "oz" }
+      { "name": "Scotch whisky", "qty": 1, "unit": "oz" }
     ],
     "name": "Blood & Sand",
     "style": "shaken"
@@ -237,7 +237,7 @@
     "ingredients": [
       { "name": "Angostura bitters", "qty": 1, "unit": "dash" },
       { "name": "Benedictine", "qty": 0.25, "unit": "oz" },
-      { "name": "blended scotch whiskey", "qty": 2, "unit": "oz" },
+      { "name": "Scotch whiskey", "qty": 2, "unit": "oz" },
       { "name": "Drambuie", "qty": 0.25, "unit": "oz" },
       { "name": "sweet vermouth", "qty": 0.75, "unit": "oz" }
     ],
@@ -268,7 +268,7 @@
   "Brandy75": {
     "garnish": "lemon twist",
     "ingredients": [
-      { "name": "Champagne or sparkling wine", "qty": 2.5, "unit": "oz" },
+      { "name": "Champagne", "qty": 2.5, "unit": "oz" },
       { "name": "cognac", "qty": 1, "unit": "oz" },
       { "name": "lemon juice", "qty": 0.5, "unit": "oz" },
       { "name": "simple syrup", "qty": 0.5, "unit": "oz" }
@@ -344,7 +344,7 @@
     "ingredients": [
       { "name": "sugar cube", "qty": 1, "unit": "each" },
       { "name": "Angostura bitters", "qty": 5, "unit": "dash" },
-      { "name": "Champagne or sparkling wine", "qty": 5, "unit": "oz" }
+      { "name": "Champagne", "qty": 5, "unit": "oz" }
     ],
     "name": "Champagne Cocktail",
     "style": "bubbly"
@@ -354,7 +354,7 @@
     "ingredients": [
       { "name": "Angostura bitters", "qty": 2, "unit": "dash" },
       { "name": "cognac", "qty": 2, "unit": "oz" },
-      { "name": "green Chartreuse", "qty": 0.5, "unit": "oz" },
+      { "name": "Green Chartreuse", "qty": 0.5, "unit": "oz" },
       { "name": "lemon juice", "qty": 0.75, "unit": "oz" },
       { "name": "simple syrup", "qty": 0.5, "unit": "oz" }
     ],
@@ -364,7 +364,7 @@
   "ChartreuseSwizzle": {
     "garnish": "nutmeg & mint sprig",
     "ingredients": [
-      { "name": "green Chartreuse", "qty": 1.5, "unit": "oz" },
+      { "name": "Green Chartreuse", "qty": 1.5, "unit": "oz" },
       { "name": "pineapple juice", "qty": 1, "unit": "oz" },
       { "name": "lime juice", "qty": 0.75, "unit": "oz" },
       { "name": "falernum", "qty": 0.5, "unit": "oz" }
@@ -425,7 +425,7 @@
       { "name": "sugar cube", "qty": 1, "unit": "each" },
       { "name": "Peychaud's bitters", "qty": 3, "unit": "dash" },
       { "name": "rhubarb bitters", "qty": 3, "unit": "dash" },
-      { "name": "Champagne or sparkling wine", "qty": 3, "unit": "oz" },
+      { "name": "Champagne", "qty": 3, "unit": "oz" },
       { "name": "Lillet Rouge", "qty": 1, "unit": "oz" }
     ],
     "name": "Cricket Ball",
@@ -483,7 +483,7 @@
     "ingredients": [
       { "name": "apple brandy", "qty": 0.5, "unit": "oz" },
       { "name": "rye whiskey", "qty": 2, "unit": "oz" },
-      { "name": "yellow Chartreuse", "qty": 0.5, "unit": "oz" }
+      { "name": "Yellow Chartreuse", "qty": 0.5, "unit": "oz" }
     ],
     "name": "Diamondback",
     "style": "stirred"
@@ -525,7 +525,7 @@
   "French75": {
     "garnish": "lemon twist",
     "ingredients": [
-      { "name": "Champagne or sparkling wine", "qty": 2.5, "unit": "oz" },
+      { "name": "Champagne", "qty": 2.5, "unit": "oz" },
       { "name": "gin", "qty": 1, "unit": "oz" },
       { "name": "lemon juice", "qty": 0.5, "unit": "oz" },
       { "name": "simple syrup", "qty": 0.5, "unit": "oz" }
@@ -537,7 +537,7 @@
     "garnish": "lemon twist",
     "ingredients": [
       { "name": "bourbon whiskey", "qty": 2, "unit": "oz" },
-      { "name": "Champagne or sparkling wine", "qty": 2.5, "unit": "oz" },
+      { "name": "Champagne", "qty": 2.5, "unit": "oz" },
       { "name": "lemon juice", "qty": 0.75, "unit": "oz" },
       { "name": "simple syrup", "qty": 0.5, "unit": "oz" }
     ],
@@ -548,7 +548,7 @@
     "garnish": "orange twist",
     "ingredients": [
       { "name": "orange bitters", "qty": 2, "unit": "dash" },
-      { "name": "Champagne or sparkling wine", "qty": 2, "unit": "oz" },
+      { "name": "Champagne", "qty": 2, "unit": "oz" },
       { "name": "gin", "qty": 1, "unit": "oz" },
       { "name": "simple syrup", "qty": 0.25, "unit": "oz" },
       { "name": "Strega", "qty": 0.75, "unit": "oz" }
@@ -748,7 +748,7 @@
       { "name": "muddled strawberry", "qty": 1, "unit": "each" },
       { "name": "amaro", "qty": 1, "unit": "oz" },
       { "name": "lemon juice", "qty": 0.75, "unit": "oz" },
-      { "name": "pink Champagne or sparkling wine", "qty": 1.5, "unit": "oz" },
+      { "name": "pink Champagne", "qty": 1.5, "unit": "oz" },
       { "name": "simple syrup", "qty": 0.5, "unit": "oz" },
       { "name": "tequila blanco", "qty": 2, "unit": "oz" }
     ],
@@ -782,7 +782,7 @@
     "garnish": "none",
     "ingredients": [
       { "name": "gin", "qty": 0.75, "unit": "oz" },
-      { "name": "green Chartreuse", "qty": 0.75, "unit": "oz" },
+      { "name": "Green Chartreuse", "qty": 0.75, "unit": "oz" },
       { "name": "lime juice", "qty": 0.75, "unit": "oz" },
       { "name": "Luxardo Maraschino", "qty": 0.75, "unit": "oz" },
       { "name": "salt", "qty": 1, "unit": "dash" }
@@ -933,7 +933,7 @@
     "ingredients": [
       { "name": "Campari", "qty": 1, "unit": "oz" },
       { "name": "sweet vermouth", "qty": 1, "unit": "oz" },
-      { "name": "Champagne or sparkling wine", "qty": 1, "unit": "oz" }
+      { "name": "Champagne", "qty": 1, "unit": "oz" }
     ],
     "name": "Negroni Sbagliato",
     "style": "built"
@@ -941,7 +941,7 @@
   "OdeToViceroy": {
     "garnish": "lime wheel",
     "ingredients": [
-      { "name": "blended scotch whiskey", "qty": 1.5, "unit": "oz" },
+      { "name": "Scotch whiskey", "qty": 1.5, "unit": "oz" },
       { "name": "falernum", "qty": 0.5, "unit": "oz" },
       { "name": "lime juice", "qty": 0.5, "unit": "oz" },
       { "name": "ginger syrup", "qty": 0.5, "unit": "oz" }
@@ -1007,9 +1007,9 @@
   "Penicillin": {
     "garnish": "fresh ginger slices",
     "ingredients": [
-      { "name": "blended scotch whiskey", "qty": 2, "unit": "oz" },
+      { "name": "Scotch whiskey", "qty": 2, "unit": "oz" },
       { "name": "honey simple syrup", "qty": 0.75, "unit": "oz" },
-      { "name": "scotch whisky", "qty": 0.25, "unit": "oz" },
+      { "name": "Scotch whisky", "qty": 0.25, "unit": "oz" },
       { "name": "lemon juice", "qty": 0.75, "unit": "oz" }
     ],
     "name": "Penicillin",
@@ -1039,7 +1039,7 @@
     "garnish": "lime slice",
     "ingredients": [
       { "name": "muddled strawberry", "qty": 1, "unit": "each" },
-      { "name": "Champagne or sparkling wine", "qty": 2.5, "unit": "oz" },
+      { "name": "Champagne", "qty": 2.5, "unit": "oz" },
       { "name": "lemon juice", "qty": 0.5, "unit": "oz" },
       { "name": "pisco", "qty": 1, "unit": "oz" },
       { "name": "simple syrup", "qty": 0.5, "unit": "oz" }
@@ -1115,7 +1115,7 @@
     "garnish": "lemon twist",
     "ingredients": [
       { "name": "Angostura bitters", "qty": 2, "unit": "dash" },
-      { "name": "blended scotch whiskey", "qty": 2.5, "unit": "oz" },
+      { "name": "Scotch whiskey", "qty": 2.5, "unit": "oz" },
       { "name": "sweet vermouth", "qty": 0.75, "unit": "oz" }
     ],
     "name": "Rob Roy",
@@ -1125,7 +1125,7 @@
     "garnish": "lemon twist",
     "ingredients": [
       { "name": "aged rum", "qty": 1, "unit": "oz" },
-      { "name": "Champagne or sparkling wine", "qty": 2.5, "unit": "oz" },
+      { "name": "Champagne", "qty": 2.5, "unit": "oz" },
       { "name": "lemon juice", "qty": 0.5, "unit": "oz" },
       { "name": "simple syrup", "qty": 0.5, "unit": "oz" }
     ],
@@ -1156,7 +1156,7 @@
   "RustyNail": {
     "garnish": "lemon twist",
     "ingredients": [
-      { "name": "blended scotch whiskey", "qty": 2, "unit": "oz" },
+      { "name": "Scotch whiskey", "qty": 2, "unit": "oz" },
       { "name": "Drambuie", "qty": 0.5, "unit": "oz" }
     ],
     "name": "Rusty Nail",
@@ -1165,9 +1165,9 @@
   "Sawyer": {
     "garnish": "lime twist",
     "ingredients": [
-      { "name": "Angostura bitters", "qty": 14, "unit": "dash" },
-      { "name": "orange bitters", "qty": 7, "unit": "dash" },
-      { "name": "Peychaud's bitters", "qty": 7, "unit": "dash" },
+      { "name": "Angostura bitters", "qty": 1, "unit": "tsp" },
+      { "name": "orange bitters", "qty": 0.5, "unit": "tsp" },
+      { "name": "Peychaud's bitters", "qty": 0.5, "unit": "tsp" },
       { "name": "gin", "qty": 2, "unit": "oz" },
       { "name": "lime juice", "qty": 0.5, "unit": "oz" },
       { "name": "simple syrup", "qty": 0.5, "unit": "oz" }
@@ -1202,7 +1202,7 @@
     "garnish": "none",
     "ingredients": [
       { "name": "Angostura bitters", "qty": 2, "unit": "dash" },
-      { "name": "scotch whisky", "qty": 2, "unit": "oz" },
+      { "name": "Scotch whisky", "qty": 2, "unit": "oz" },
       { "name": "honey", "qty": 1, "unit": "tsp" }
     ],
     "name": "Scotch Old Fashioned",
@@ -1213,7 +1213,7 @@
     "ingredients": [
       { "name": "boiling water", "qty": 3, "unit": "oz" },
       { "name": "lemon juice", "qty": 0.5, "unit": "oz" },
-      { "name": "scotch whisky", "qty": 2, "unit": "oz" },
+      { "name": "Scotch whisky", "qty": 2, "unit": "oz" },
       { "name": "honey", "qty": 1, "unit": "tbl" }
     ],
     "name": "Scotch Toddy",
@@ -1225,7 +1225,7 @@
       { "name": "Angostura bitters", "qty": 7, "unit": "dash" },
       { "name": "Peychaud's bitters", "qty": 7, "unit": "dash" },
       { "name": "bourbon whiskey", "qty": 1, "unit": "oz" },
-      { "name": "Champagne or sparkling wine", "qty": 2, "unit": "oz" },
+      { "name": "Champagne", "qty": 2, "unit": "oz" },
       { "name": "Cointreau", "qty": 0.5, "unit": "oz" }
     ],
     "name": "Seelbach Cocktail",
@@ -1352,7 +1352,7 @@
     "ingredients": [
       { "name": "orange bitters", "qty": 2, "unit": "dash" },
       { "name": "gin", "qty": 1.5, "unit": "oz" },
-      { "name": "green Chartreuse", "qty": 1, "unit": "oz" },
+      { "name": "Green Chartreuse", "qty": 1, "unit": "oz" },
       { "name": "sweet vermouth", "qty": 1, "unit": "oz" },
       { "name": "Campari", "qty": 1, "unit": "rinse" }
     ],
@@ -1363,7 +1363,7 @@
     "garnish": "lime twist",
     "ingredients": [
       { "name": "agave nectar", "qty": 0.5, "unit": "oz" },
-      { "name": "Champagne or sparkling wine", "qty": 2.5, "unit": "oz" },
+      { "name": "Champagne", "qty": 2.5, "unit": "oz" },
       { "name": "lemon juice", "qty": 0.5, "unit": "oz" },
       { "name": "tequila blanco", "qty": 1, "unit": "oz" }
     ],
@@ -1476,7 +1476,7 @@
       { "name": "Angostura bitters", "qty": 2, "unit": "dash" },
       { "name": "apple brandy", "qty": 2, "unit": "oz" },
       { "name": "Benedictine", "qty": 0.25, "unit": "oz" },
-      { "name": "yellow Chartreuse", "qty": 0.25, "unit": "oz" }
+      { "name": "Yellow Chartreuse", "qty": 0.25, "unit": "oz" }
     ],
     "name": "Widow's Kiss",
     "style": "stirred"
@@ -1486,7 +1486,7 @@
     "ingredients": [
       { "name": "reposado tequila", "qty": 2, "unit": "oz" },
       { "name": "orange bitters", "qty": 2, "unit": "tsp" },
-      { "name": "St. Germain elderflower liqueur", "qty": 2, "unit": "tsp" },
+      { "name": "St. Germain", "qty": 2, "unit": "tsp" },
       { "name": "sugar", "qty": 1, "unit": "tsp" }
     ],
     "name": "Zim Zala Bim",

@@ -33,7 +33,7 @@ def ingredients()-> None:
         reader.__next__()
         for line in reader:
             name, keyname = get_keyname(line[0])
-            abv = line[2]
+            abv = float(line[2])
             ingreds[keyname] = {"name": name, "abv": abv}
     with open(jsonfile, 'w+') as f:
         f.write(json.dumps(ingreds))

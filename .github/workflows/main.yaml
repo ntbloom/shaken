@@ -17,6 +17,7 @@ jobs:
 
       - name: Lint
         run: |
+          python csv_to_json.py # we'll eventually delete this, but for now make sure it runs
           npm run check-format
           npm run lint
 
