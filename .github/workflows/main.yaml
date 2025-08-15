@@ -17,8 +17,13 @@ jobs:
 
       - name: Lint
         run: |
-          python csv_to_json.py # we'll eventually delete this, but for now make sure it runs
           npm run check-format
+
+          # Run this code for now to make sure we can still autogenerate JSON correctly. 
+          # It needs to run after checking prettier because it will cause JSON to be 
+          # malformed.
+          python csv_to_json.py 
+
           npm run lint
 
       - name: test
