@@ -1,5 +1,5 @@
-import { getAmountString } from '../src/utils/amount';
 import { Amount } from '../src/types/drinkParams';
+import { getAmountString } from '../src/utils/amounts';
 
 import { expect, test } from '@jest/globals';
 

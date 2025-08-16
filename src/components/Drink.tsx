@@ -1,5 +1,5 @@
 import { Cocktail, Ingredient } from '../types/drinkParams';
-import { getAmountString } from '../utils/amount';
+import { getAmountString } from '../utils/amounts';
 
 export function Drink(props: Cocktail) {
   const getColor = (props: Cocktail) => {
