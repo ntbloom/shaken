@@ -23,3 +23,7 @@ lcov-report
 coverage-final.json
 lcov.info
 lcov-report
+
+# python
+__pycache__/
+.mypy_cache

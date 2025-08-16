@@ -1,4 +1,4 @@
-import { includeIngredients } from '../src/utils/search';
+import { getKeyname, includeIngredients } from '../src/utils/search';
 
 test('basic match a Negroni', () => {
   const params = new Set<string>();
@@ -34,4 +34,19 @@ test('basic empty results', () => {
 test('basic mismatch', () => {
   const query = includeIngredients(new Set<string>('not a real ingredient'));
   expect(query.size).toBe(0);
+});
+
+describe.each([
+  ['absinthe', 'Absinthe'],
+  ['Cherry Heering', 'CherryHeering'],
+  ['cinnamon tea', 'CinnamonTea'],
+  ["Peychaud's bitters", 'PeychaudsBitters'],
+  ['St. Germain', 'StGermain'],
+  ['20th Century', '20thCentury'],
+  ['Dark & Stormy', 'DarkAndStormy'],
+  ['rye whiskey simple syrup', 'RyeWhiskeySimpleSyrup'],
+])('getKeyname(%s)', (raw: string, expected: string) => {
+  test('test getKeyname', () => {
+    expect(getKeyname(raw)).toEqual(expected);
+  });
 });
