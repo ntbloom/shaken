@@ -1,5 +1,4 @@
 import { AllRecipes } from '../json/cocktails.ts';
-import { Recipe } from '../json/types.ts';
 import { Amount } from '../src/types/drinkParams';
 import { getAbv, getAmountString } from '../src/utils/amounts';
 
@@ -33,7 +32,7 @@ describe.each([
   ['Hanky Panky', 0.0],
 ])('get abv for %s', (name: string, abv: number) => {
   test('get abv', () => {
-    const drink: Recipe | undefined = AllRecipes.get(getKeyname(name));
+    const drink = AllRecipes.get(getKeyname(name));
     if (drink === undefined) {
       fail();
     }
