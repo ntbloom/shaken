@@ -1,12 +1,10 @@
-import { AllRecipes} from '../json/cocktails.ts';
+import { AllRecipes } from '../json/cocktails.ts';
 import { Recipe } from '../json/types.ts';
 import { Amount } from '../src/types/drinkParams';
 import { getAbv, getAmountString } from '../src/utils/amounts';
 
 import { expect, test } from '@jest/globals';
 import { getKeyname } from '../src/utils/search';
-
-
 
 describe.each([
   ['oz', 0.5, '1/2 oz'],

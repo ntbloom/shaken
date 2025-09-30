@@ -28,7 +28,7 @@ export function getAmountString(amount: Amount): string {
   return fraction(amount.qty) + ' ' + amount.unit;
 }
 
-export function getAbv(recipe: Recipe) : number {
+export function getAbv(recipe: Recipe): number {
   console.log(recipe.name);
   return 0.0;
 }
