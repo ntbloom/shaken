@@ -33,7 +33,7 @@ describe.each([
   ['Hanky Panky', 0.0],
 ])('get abv for %s', (name: string, abv: number) => {
   test('get abv', () => {
-    const drink: Recipe = AllRecipes[getKeyname(name)];
+    const drink: Recipe | undefined = AllRecipes.get(getKeyname(name));
     if (drink === undefined) {
       fail();
     }
