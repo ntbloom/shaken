@@ -26,10 +26,10 @@ describe.each([
 });
 
 describe.each([
-  ['Alabazam', 0.0],
-  ['Americano', 0.0],
-  ['Bitter French', 0.0],
-  ['Hanky Panky', 0.0],
+  ['Alabazam', 0.25],
+  ['Americano', 0.08],
+  ['Bitter French', 0.16],
+  ['Hanky Panky', 0.23],
 ])('get abv for %s', (name: string, abv: number) => {
   test('get abv', () => {
     const drink = AllRecipes.get(getKeyname(name));
