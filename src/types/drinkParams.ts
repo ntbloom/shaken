@@ -1,5 +1,5 @@
 import recipes from '../data/json/recipes.json';
-import barIngredients from '../data/json/barIngredients.json';
+import barItems from '../data/json/barItems.json';
 
 export type Style =
   | 'built'
@@ -17,10 +17,10 @@ export interface Amount {
   qty: number;
 }
 
-export interface Ingredient {
-  name: string;
-  amount: Amount;
-}
+// export interface Ingredient {
+//   name: string;
+//   amount: Amount;
+// }
 
 // export interface Cocktail {
 //   name: string;
@@ -39,12 +39,12 @@ export interface Ingredient {
 //   lookup: Map<string, Cocktail>;
 // }
 
-export interface BarIngredient {
+export interface BarItem {
   abv: number;
   name: string;
 }
 
-export interface CocktailIngredient {
+export interface Ingredient {
   name: string;
   qty: number;
   unit: string;
@@ -52,12 +52,10 @@ export interface CocktailIngredient {
 
 export interface Recipe {
   garnish: string;
-  ingredients: Array<CocktailIngredient>;
+  ingredients: Array<Ingredient>;
   name: string;
   style: string;
 }
 
 export const AllRecipes = new Map<string, Recipe>(Object.entries(recipes));
-export const AllIngredients = new Map<string, BarIngredient>(
-  Object.entries(barIngredients),
-);
+export const BarItems = new Map<string, BarItem>(Object.entries(barItems));

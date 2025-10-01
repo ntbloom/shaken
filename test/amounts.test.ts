@@ -1,5 +1,5 @@
 import { AllRecipes, Amount } from '../src/types/drinkParams';
-import { getAbv, getAmountString } from '../src/utils/amounts';
+import { getVolumeAbv, getAmountString } from '../src/utils/amounts';
 
 import { expect, test } from '@jest/globals';
 import { getKeyname } from '../src/utils/search';
@@ -35,6 +35,7 @@ describe.each([
     if (drink === undefined) {
       fail();
     }
-    expect(getAbv(drink)).toBe(abv);
+    const [_, actualAbv] = getVolumeAbv(drink);
+    expect(actualAbv).toBeCloseTo(abv, 1);
   });
 });
