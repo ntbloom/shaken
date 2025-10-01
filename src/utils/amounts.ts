@@ -1,5 +1,9 @@
 import { Amount } from '../types/drinkParams';
-import { Recipe } from '../../json/types';
+import {
+  // CocktailIngredient,
+  // AllIngredients,
+  Recipe,
+} from '../types/drinkParams';
 
 export function getAmountString(amount: Amount): string {
   const fraction = (num: number): string => {
@@ -29,6 +33,14 @@ export function getAmountString(amount: Amount): string {
 }
 
 export function getAbv(recipe: Recipe): number {
+  // let total = 0.0;
+  // recipe.ingredients.forEach((ingredient: CocktailIngredient) => {
+  //   const percentAlcohol = AllIngredients.get(ingredient.name);
+  //   if (percentAlcohol == undefined) {
+  //     console.error(`Can't find abv for ${ingredient.name}`);
+  //   }
+  //   total += percentAlcohol *
+  // });
   console.log(recipe.name);
   return 0.0;
 }

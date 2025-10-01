@@ -1,8 +1,12 @@
 import { expect, test } from '@jest/globals';
 
-import ingredients from '../json/barIngredients.json';
-import recipes from '../json/recipes.json';
-import { Recipe, BarIngredient, CocktailIngredient } from '../json/types.ts';
+import ingredients from '../src/data/json/barIngredients.json';
+import recipes from '../src/data/json/recipes.json';
+import {
+  Recipe,
+  BarIngredient,
+  CocktailIngredient,
+} from '../src/types/drinkParams';
 
 const allIngredients = new Array<string>();
 Object.values(ingredients).forEach((ingred) => {

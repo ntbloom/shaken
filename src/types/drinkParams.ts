@@ -1,3 +1,6 @@
+import recipes from '../data/json/recipes.json';
+import barIngredients from '../data/json/barIngredients.json';
+
 export type Style =
   | 'built'
   | 'stirred'
@@ -19,19 +22,42 @@ export interface Ingredient {
   amount: Amount;
 }
 
-export interface Cocktail {
-  name: string;
-  volume: number;
-  style: Style;
+// export interface Cocktail {
+//   name: string;
+//   volume: number;
+//   style: Style;
+//   abv: number;
+//   ingredients: Array<Ingredient>;
+//   garnish: string | null;
+// }
+
+// export interface Cocktails {
+//   cocktails: Array<Cocktail>;
+// }
+
+// export interface CocktailMap {
+//   lookup: Map<string, Cocktail>;
+// }
+
+export interface BarIngredient {
   abv: number;
-  ingredients: Array<Ingredient>;
-  garnish: string | null;
+  name: string;
 }
 
-export interface Cocktails {
-  cocktails: Array<Cocktail>;
+export interface CocktailIngredient {
+  name: string;
+  qty: number;
+  unit: string;
 }
 
-export interface CocktailMap {
-  lookup: Map<string, Cocktail>;
+export interface Recipe {
+  garnish: string;
+  ingredients: Array<CocktailIngredient>;
+  name: string;
+  style: string;
 }
+
+export const AllRecipes = new Map<string, Recipe>(Object.entries(recipes));
+export const AllIngredients = new Map<string, BarIngredient>(
+  Object.entries(barIngredients),
+);

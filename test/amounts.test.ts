@@ -1,5 +1,4 @@
-import { AllRecipes } from '../json/cocktails.ts';
-import { Amount } from '../src/types/drinkParams';
+import { AllRecipes, Amount } from '../src/types/drinkParams';
 import { getAbv, getAmountString } from '../src/utils/amounts';
 
 import { expect, test } from '@jest/globals';

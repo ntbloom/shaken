@@ -1,5 +1,4 @@
-import { Cocktail } from '../types/drinkParams';
-import { allCocktails, cocktailMap } from '../types/indices';
+import { AllRecipes, Recipe } from '../types/drinkParams';
 
 export function getKeyname(raw: string): string {
   let result = '';
@@ -20,12 +19,12 @@ export function getKeyname(raw: string): string {
 }
 
 // brute force search through drinks
-function naiveSearch(ingredients: Set<string>): Set<Cocktail> {
-  const drinks = new Set<Cocktail>();
-  allCocktails.cocktails.forEach((cocktail: Cocktail) => {
-    for (let i = 0; i < cocktail.ingredients.length; i++) {
-      if (ingredients.has(cocktail.ingredients[i].name)) {
-        const res = cocktailMap.lookup.get(cocktail.name);
+function naiveSearch(ingredients: Set<string>): Set<Recipe> {
+  const drinks = new Set<Recipe>();
+  AllRecipes.forEach((recipe: Recipe) => {
+    for (let i = 0; i < recipe.ingredients.length; i++) {
+      if (ingredients.has(recipe.ingredients[i].name)) {
+        const res = recipe;
         if (res) {
           drinks.add(res);
         }
@@ -36,6 +35,6 @@ function naiveSearch(ingredients: Set<string>): Set<Cocktail> {
   return drinks;
 }
 
-export function includeIngredients(ingredients: Set<string>): Set<Cocktail> {
+export function includeIngredients(ingredients: Set<string>): Set<Recipe> {
   return naiveSearch(ingredients);
 }
