@@ -32,6 +32,7 @@ describe.each([
 ])('get abv for %s', (name: string, abv: number) => {
   test('get abv', () => {
     const drink = AllRecipes.get(getKeyname(name));
+    // console.log(drink);
     if (drink === undefined) {
       fail();
     }
