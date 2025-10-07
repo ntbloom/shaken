@@ -1,6 +1,4 @@
 import { expect, test } from '@jest/globals';
-
-// import ingredients from '../src/data/json/barIngredients.json';
 import barItems from '../src/data/json/barItems.json';
 import recipes from '../src/data/json/recipes.json';
 import { Recipe, Ingredient, BarItem } from '../src/types/drinkParams';
