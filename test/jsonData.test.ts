@@ -1,11 +1,10 @@
 import { expect, test } from '@jest/globals';
-
-import ingredients from '../json/barIngredients.json';
-import recipes from '../json/recipes.json';
-import { Recipe, BarIngredient, CocktailIngredient } from '../json/types.ts';
+import barItems from '../src/data/json/barItems.json';
+import recipes from '../src/data/json/recipes.json';
+import { Recipe, Ingredient, BarItem } from '../src/types/drinkParams';
 
 const allIngredients = new Array<string>();
-Object.values(ingredients).forEach((ingred) => {
+Object.values(barItems).forEach((ingred) => {
   allIngredients.push(ingred['name']);
 });
 
@@ -13,13 +12,13 @@ describe.each(Object.entries(recipes))(
   'Recipe integrity check for %s',
   (_: string, recipe: Recipe) => {
     test('all ingredients are accounted for', () => {
-      recipe.ingredients.forEach((ingredient: CocktailIngredient) => {
+      recipe.ingredients.forEach((ingredient: Ingredient) => {
         expect(allIngredients).toContain(ingredient.name);
       });
     });
 
     test('ingredients are properly formatted', () => {
-      recipe.ingredients.forEach((ingredient: CocktailIngredient) => {
+      recipe.ingredients.forEach((ingredient: Ingredient) => {
         expect(ingredient).toHaveProperty('name');
         expect(ingredient).toHaveProperty('qty');
         expect(ingredient.qty).toBeGreaterThanOrEqual(0);
@@ -48,9 +47,9 @@ describe.each(Object.entries(recipes))(
   },
 );
 
-describe.each(Object.entries(ingredients))(
+describe.each(Object.entries(barItems))(
   'Ingredient integrity check for %s',
-  (_: string, ingredient: BarIngredient) => {
+  (_: string, ingredient: BarItem) => {
     test('ingredient has abv', () => {
       expect(ingredient).toHaveProperty('abv');
       expect(ingredient.abv).toBeGreaterThanOrEqual(0);

@@ -1,7 +1,8 @@
-import { getAmountString } from '../src/utils/amount';
-import { Amount } from '../src/types/drinkParams';
+import { AllRecipes, Amount } from '../src/types/drinkParams';
+import { getVolumeAbv, getAmountString } from '../src/utils/amounts';
 
 import { expect, test } from '@jest/globals';
+import { getKeyname } from '../src/utils/search';
 
 describe.each([
   ['oz', 0.5, '1/2 oz'],
@@ -20,5 +21,22 @@ describe.each([
   test('convert decimal to fraction', () => {
     const amount: Amount = { unit: unit, qty: qty };
     expect(getAmountString(amount)).toBe(expected);
+  });
+});
+
+describe.each([
+  ['Alabazam', 0.25],
+  ['Americano', 0.08],
+  ['Bitter French', 0.16],
+  ['Hanky Panky', 0.23],
+])('get abv for %s', (name: string, abv: number) => {
+  test('get abv', () => {
+    const drink = AllRecipes.get(getKeyname(name));
+    // console.log(drink);
+    if (drink === undefined) {
+      fail();
+    }
+    const [_, actualAbv] = getVolumeAbv(drink);
+    expect(actualAbv).toBeCloseTo(abv, 1);
   });
 });
