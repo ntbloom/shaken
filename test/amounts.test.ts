@@ -36,7 +36,7 @@ describe.each([
     if (drink === undefined) {
       fail();
     }
-    const [_, actualAbv] = getVolumeAbv(drink);
+    const [, actualAbv] = getVolumeAbv(drink);
     expect(actualAbv).toBeCloseTo(abv, 1);
   });
 });
