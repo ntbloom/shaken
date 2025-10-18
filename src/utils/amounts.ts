@@ -70,7 +70,7 @@ function getStyleFactor(drink: Recipe) {
     case 'double shake':
       return 0.35;
     default:
-      console.log('zero style factor');
+      console.error('zero style factor');
       return 0.28;
   }
 }
@@ -79,11 +79,9 @@ export function getVolumeAbv(recipe: Recipe): Array<number> {
   let volume = 0.0;
   recipe.ingredients.forEach((ingredient: Ingredient) => {
     const item = BarItems.get(getKeyname(ingredient.name));
-    // console.log(item);
     if (item == undefined) {
       return 0.0;
     }
-    console.log(`getVolumeFactor(ingredient)=${getVolumeFactor(ingredient)}`);
     totalAlc += getVolumeFactor(ingredient) * ingredient.qty * item.abv;
     volume +=
       getVolumeFactor(ingredient) *

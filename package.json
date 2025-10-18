@@ -33,7 +33,8 @@
     "format": "prettier --write .",
     "lint": "eslint .",
     "preview": "rsbuild preview",
-    "test": "jest --verbose"
+    "test": "jest --verbose",
+    "test-light": "jest"
   },
   "type": "module",
   "version": "1.0.0"
